@@ -14,10 +14,41 @@ msgstr ""
 "Content-Transfer-Encoding: utf8\n"
 "Generated-By: pygettext.py 1.5\n"
 
-msgid " Hello world!"
-msgstr "世界你好!"
+# aboutData.py
 
-msgid " Python is a good Language."
-msgstr "Python 是门好语言."
+msgid "aboutData_license_line_1"
+msgstr "pyfa 基于 GNU GPLv3 开源协议 - 详情请参阅 LICENSE 文件"
+
+msgid "aboutData_license_line_2"
+msgstr "所有 EVE-Online 相关的材质版权均归 CCP 公司所有"
+
+msgid "aboutData_license_line_3"
+msgstr "Silk Icons Set by famfamfam.com - Creative Commons Attribution 2.5 License"
+
+msgid "aboutData_license_line_4"
+msgstr "Fat Cow Icons by fatcow.com - Creative Commons Attribution 3.0 License"
+
+msgid "aboutData_description_line_1"
+msgstr "Pyfa (the Python Fitting Assistant) is an open-source standalone application able to "
+
+msgid "aboutData_description_line_2"
+msgstr "create and simulate fittings for EVE-Online SciFi MMORPG with a very high degree of "
+
+msgid "aboutData_description_line_3"
+msgstr "accuracy. Pyfa can run on all platforms where Python and wxWidgets are supported."
+
+# builtinStatsViews/capacitorViewFull.py
+
+msgid "StatsViews_capacitor_title"
+msgstr "Capacitor"
+
+msgid "StatsViews_capacitor_total"
+msgstr "Total: "
+
+msgid "StatsViews_capacitor_lasts"
+msgstr "Lasts "
+
+msgid "StatsViews_firepower_title"
+msgstr "Firepower"
 
 

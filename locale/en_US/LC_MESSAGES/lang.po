@@ -45,5 +45,8 @@ msgstr "Capacitor"
 msgid "StatsViews_capacitor_total"
 msgstr "Total: "
 
+msgid "StatsViews_capacitor_lasts"
+msgstr "Lasts "
+
 msgid "StatsViews_firepower_title"
 msgstr "Firepower"
