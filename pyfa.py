@@ -21,6 +21,8 @@
 import sys
 import re
 import config
+import gettext
+gettext.install('lang', './locale', unicode=True)
 
 from optparse import OptionParser, BadOptionError, AmbiguousOptionError
 
@@ -45,6 +47,7 @@ parser.add_option("-w", "--wx28", action="store_true", dest="force28", help="For
 parser.add_option("-d", "--debug", action="store_true", dest="debug", help="Set logger to debug level.", default=False)
 parser.add_option("-t", "--title", action="store", dest="title", help="Set Window Title", default=None)
 parser.add_option("-s", "--savepath", action="store", dest="savepath", help="Set the folder for savedata", default=None)
+parser.add_option("-l", "--language", action="store", dest="language", help="Set the language for pyfa", default="en_US")
 
 (options, args) = parser.parse_args()
 
@@ -111,6 +114,9 @@ if __name__ == "__main__":
     if options.savepath is not None:
         options.savepath = unicode(options.savepath)
     config.defPaths(options.savepath)
+
+    # convert language if it is set
+    gettext.translation('lang', './locale', languages=[options.language]).install(True)
 
     # Basic logging initialization
     import logging

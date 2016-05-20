@@ -32,7 +32,7 @@ class FirepowerViewFull(StatsView):
         self._cachedValues = []
 
     def getHeaderText(self, fit):
-        return "Firepower"
+        return _("StatsViews_firepower_title")
 
     def getTextExtentW(self, text):
         width, height = self.parent.GetTextExtent( text )
