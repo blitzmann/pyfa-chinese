@@ -34,7 +34,7 @@ class TargetingMiscViewFull(StatsView):
         self.parent = parent
         self._cachedValues = []
     def getHeaderText(self, fit):
-        return "Targeting && Misc"
+        return _("StatsViews_targetingMisc_title")
 
     def getTextExtentW(self, text):
         width, height = self.parent.GetTextExtent( text )
@@ -56,11 +56,11 @@ class TargetingMiscViewFull(StatsView):
 
         gridTargetingMisc.Add(gridTargeting, 0, wx.ALIGN_LEFT | wx.ALL, 5)
 
-        labels = (("Targets", "Targets", ""),
-                  ("Range", "Range", "km"),
-                  ("Scan res.", "ScanRes", "mm"),
-                  ("Sensor str.", "SensorStr", ""),
-                  ("Drone range", "CtrlRange", "km"))
+        labels = ((_("StatsViews_targetingMisc_Targets"), "Targets", ""),
+                  (_("StatsViews_targetingMisc_Range"), "Range", "km"),
+                  (_("StatsViews_targetingMisc_Scan res."), "ScanRes", "mm"),
+                  (_("StatsViews_targetingMisc_Sensor str."), "SensorStr", ""),
+                  (_("StatsViews_targetingMisc_Drone range"), "CtrlRange", "km"))
 
         for header, labelShort, unit in labels:
             gridTargeting.Add(wx.StaticText(contentPanel, wx.ID_ANY, "%s: " % header), 0, wx.ALIGN_LEFT)
@@ -80,11 +80,11 @@ class TargetingMiscViewFull(StatsView):
         gridMisc.AddGrowableCol(1)
         gridTargetingMisc.Add(gridMisc,0 , wx.ALIGN_LEFT | wx.ALL, 5)
 
-        labels = (("Speed", "Speed", "m/s"),
-                  ("Align time", "AlignTime", "s"),
-                  ("Signature", "SigRadius", "m"),
-                  ("Warp Speed", "WarpSpeed", "AU/s"),
-                  ("Cargo", "Cargo", u"m\u00B3"))
+        labels = ((_("StatsViews_targetingMisc_Speed"), "Speed", "m/s"),
+                  (_("StatsViews_targetingMisc_Align time"), "AlignTime", "s"),
+                  (_("StatsViews_targetingMisc_Signature"), "SigRadius", "m"),
+                  (_("StatsViews_targetingMisc_Warp Speed"), "WarpSpeed", "AU/s"),
+                  (_("StatsViews_targetingMisc_Cargo"), "Cargo", u"m\u00B3"))
 
         for header, labelShort, unit in labels:
             gridMisc.Add(wx.StaticText(contentPanel, wx.ID_ANY, "%s: " % header), 0, wx.ALIGN_LEFT)

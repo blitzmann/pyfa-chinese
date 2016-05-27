@@ -34,7 +34,7 @@ class PriceViewFull(StatsView):
         self._cachedTotal = 0
 
     def getHeaderText(self, fit):
-        return "Price"
+        return _("StatsViews_price_title")
 
     def populatePanel(self, contentPanel, headerPanel):
         contentSizer = contentPanel.GetSizer()

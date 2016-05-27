@@ -37,6 +37,83 @@ msgstr "create and simulate fittings for EVE-Online SciFi MMORPG with a very hig
 msgid "aboutData_description_line_3"
 msgstr "accuracy. Pyfa can run on all platforms where Python and wxWidgets are supported."
 
+#mainMenuBar.py
+
+msgid "mainMenuBar_&File"
+msgstr "&File"
+
+msgid "mainMenuBar_&New Tab\tCTRL+T"
+msgstr "&New Tab\tCTRL+T"
+
+msgid "mainMenuBar_Open a new fitting tab"
+msgstr "Open a new fitting tab"
+
+msgid "mainMenuBar_&Close Tab\tCTRL+W"
+msgstr "&Close Tab\tCTRL+W"
+
+msgid "mainMenuBar_Close the current fit"
+msgstr "Close the current fit"
+
+msgid "mainMenuBar_&Backup All Fittings"
+msgstr "&Backup All Fittings"
+
+msgid "mainMenuBar_Backup all fittings to a XML file"
+msgstr "Backup all fittings to a XML file"
+
+msgid "mainMenuBar_&Import Fittings\tCTRL+O"
+msgstr "&Import Fittings\tCTRL+O"
+
+msgid "mainMenuBar_Import fittings into pyfa"
+msgstr "Import fittings into pyfa"
+
+msgid "mainMenuBar_&Export Fitting\tCTRL+S"
+msgstr "&Export Fitting\tCTRL+S"
+
+msgid "mainMenuBar_Export fitting to another format"
+msgstr "Export fitting to another format"
+
+msgid "mainMenuBar_Export HTML"
+msgstr "Export HTML"
+
+msgid "mainMenuBar_Export fits to HTML file (set in Preferences)"
+msgstr "Export fits to HTML file (set in Preferences)"
+
+msgid "mainMenuBar_Export &Skills Needed"
+msgstr "Export &Skills Needed"
+
+msgid "mainMenuBar_Export skills needed for this fitting"
+msgstr "Export skills needed for this fitting"
+
+msgid "mainMenuBar_Import C&haracter File"
+msgstr "Import C&haracter File"
+
+msgid "mainMenuBar_Import characters into pyfa from file"
+msgstr "Import characters into pyfa from file"
+
+msgid "mainMenuBar_&Edit"
+msgstr "&Edit"
+
+msgid "mainMenuBar_To Clipboard\tCTRL+C"
+msgstr "To Clipboard\tCTRL+C"
+
+msgid "mainMenuBar_Export a fit to the clipboard"
+msgstr "Export a fit to the clipboard"
+
+msgid "mainMenuBar_From Clipboard\tCTRL+V"
+msgstr "From Clipboard\tCTRL+V"
+
+msgid "mainMenuBar_Import a fit from the clipboard"
+msgstr "Import a fit from the clipboard"
+
+msgid "mainMenuBar_Save Character"
+msgstr "Save Character"
+
+msgid "mainMenuBar_Save Character As..."
+msgstr "Save Character As..."
+
+msgid "mainMenuBar_Revert Character"
+msgstr "Revert Character"
+
 # builtinStatsViews/capacitorViewFull.py
 
 msgid "StatsViews_capacitor_title"
@@ -48,5 +125,52 @@ msgstr "Total: "
 msgid "StatsViews_capacitor_lasts"
 msgstr "Lasts "
 
+# builtinStatsViews/firepowerViewFull.py
+
 msgid "StatsViews_firepower_title"
 msgstr "Firepower"
+
+# builtinStatsViews/priceViewFull.py
+
+msgid "StatsViews_price_title"
+msgstr "Price"
+
+# builtinStatsViews/resourcesViewFull.py
+
+msgid "StatsViews_firepower_title"
+msgstr "Firepower"
+
+# builtinStatsViews/targetingMiscViewFull.py
+
+msgid "StatsViews_targetingMisc_title"
+msgstr "Targeting && Misc"
+
+msgid "StatsViews_targetingMisc_Targets"
+msgstr "Targets"
+
+msgid "StatsViews_targetingMisc_Range"
+msgstr "Range"
+
+msgid "StatsViews_targetingMisc_Scan res."
+msgstr "Scan res."
+
+msgid "StatsViews_targetingMisc_Sensor str."
+msgstr "Sensor str."
+
+msgid "StatsViews_targetingMisc_Drone range"
+msgstr "Drone range"
+
+msgid "StatsViews_targetingMisc_Speed"
+msgstr "Speed"
+
+msgid "StatsViews_targetingMisc_Align time"
+msgstr "Align time"
+
+msgid "StatsViews_targetingMisc_Signature"
+msgstr "Signature"
+
+msgid "StatsViews_targetingMisc_Warp Speed"
+msgstr "Warp Speed"
+
+msgid "StatsViews_targetingMisc_Cargo"
+msgstr "Cargo"

@@ -23,32 +23,149 @@ msgid "aboutData_license_line_2"
 msgstr "所有 EVE-Online 相关的材质版权均归 CCP 公司所有"
 
 msgid "aboutData_license_line_3"
-msgstr "Silk Icons Set by famfamfam.com - Creative Commons Attribution 2.5 License"
+msgstr "丝线图标集 by famfamfam.com - Creative Commons Attribution 2.5 License"
 
 msgid "aboutData_license_line_4"
-msgstr "Fat Cow Icons by fatcow.com - Creative Commons Attribution 3.0 License"
+msgstr "肥牛图标 by fatcow.com - Creative Commons Attribution 3.0 License"
 
 msgid "aboutData_description_line_1"
-msgstr "Pyfa (the Python Fitting Assistant) is an open-source standalone application able to "
+msgstr "Pyfa (Python 配装助手) 是一款独立开源软件，它可以创建并模拟 "
 
 msgid "aboutData_description_line_2"
-msgstr "create and simulate fittings for EVE-Online SciFi MMORPG with a very high degree of "
+msgstr "EVE-Online 这款科幻 MMORPG 游戏中的舰船装配，具有相当高的仿 "
 
 msgid "aboutData_description_line_3"
-msgstr "accuracy. Pyfa can run on all platforms where Python and wxWidgets are supported."
+msgstr "真度。Pyfa 可以运行在所有具备 Python 和 wxWidgets 的平台上。 "
+
+#mainMenuBar.py
+
+msgid "mainMenuBar_&File"
+msgstr "&文件"
+
+msgid "mainMenuBar_&New Tab\tCTRL+T"
+msgstr "&新标签页\tCTRL+T"
+
+msgid "mainMenuBar_Open a new fitting tab"
+msgstr "打开一个新的装配页"
+
+msgid "mainMenuBar_&Close Tab\tCTRL+W"
+msgstr "&关闭标签页\tCTRL+W"
+
+msgid "mainMenuBar_Close the current fit"
+msgstr "关闭选定的装配页"
+
+msgid "mainMenuBar_&Backup All Fittings"
+msgstr "&备份所有装配"
+
+msgid "mainMenuBar_Backup all fittings to a XML file"
+msgstr "保存所有装配为 XML 文件"
+
+msgid "mainMenuBar_&Import Fittings\tCTRL+O"
+msgstr "&导入装配\tCTRL+O"
+
+msgid "mainMenuBar_Import fittings into pyfa"
+msgstr "导入装配至 pyfa"
+
+msgid "mainMenuBar_&Export Fitting\tCTRL+S"
+msgstr "&导出装配\tCTRL+S"
+
+msgid "mainMenuBar_Export fitting to another format"
+msgstr "将装配导出为其他格式"
+
+msgid "mainMenuBar_Export HTML"
+msgstr "导出为 HTML"
+
+msgid "mainMenuBar_Export fits to HTML file (set in Preferences)"
+msgstr "将装配导出为 HTML 文件（根据首选项配置）"
+
+msgid "mainMenuBar_Export &Skills Needed"
+msgstr "导出 &技能需求"
+
+msgid "mainMenuBar_Export skills needed for this fitting"
+msgstr "导出与当前装配相关的技能"
+
+msgid "mainMenuBar_Import &Character File"
+msgstr "导入 &角色文件"
+
+msgid "mainMenuBar_Import characters into pyfa from file"
+msgstr "从文件中导入角色至 pyfa"
+
+msgid "mainMenuBar_&Edit"
+msgstr "&编辑"
+
+msgid "mainMenuBar_To Clipboard\tCTRL+C"
+msgstr "复制到剪贴板\tCTRL+C"
+
+msgid "mainMenuBar_Export a fit to the clipboard"
+msgstr "导出装配至剪贴板"
+
+msgid "mainMenuBar_From Clipboard\tCTRL+V"
+msgstr "从剪贴板导入\tCTRL+V"
+
+msgid "mainMenuBar_Import a fit from the clipboard"
+msgstr "从剪贴板导入配置"
+
+msgid "mainMenuBar_Save Character"
+msgstr "保存角色"
+
+msgid "mainMenuBar_Save Character As..."
+msgstr "保存角色为..."
+
+msgid "mainMenuBar_Revert Character"
+msgstr "还原角色"
 
 # builtinStatsViews/capacitorViewFull.py
 
 msgid "StatsViews_capacitor_title"
-msgstr "Capacitor"
+msgstr "电容"
 
 msgid "StatsViews_capacitor_total"
-msgstr "Total: "
+msgstr "总计: "
 
 msgid "StatsViews_capacitor_lasts"
-msgstr "Lasts "
+msgstr "耗尽 "
+
+# builtinStatsViews/firepowerViewFull.py
 
 msgid "StatsViews_firepower_title"
-msgstr "Firepower"
+msgstr "火力"
 
+# builtinStatsViews/priceViewFull.py
 
+msgid "StatsViews_price_title"
+msgstr "成本"
+
+# builtinStatsViews/targetingMiscViewFull.py
+
+msgid "StatsViews_targetingMisc_title"
+msgstr "锁定 && 杂项"
+
+msgid "StatsViews_targetingMisc_Targets"
+msgstr "锁定目标数"
+
+msgid "StatsViews_targetingMisc_Range"
+msgstr "锁定距离"
+
+msgid "StatsViews_targetingMisc_Scan res."
+msgstr "分辨率"
+
+msgid "StatsViews_targetingMisc_Sensor str."
+msgstr "传感器强度"
+
+msgid "StatsViews_targetingMisc_Drone range"
+msgstr "无人机控制半径"
+
+msgid "StatsViews_targetingMisc_Speed"
+msgstr "最大速度"
+
+msgid "StatsViews_targetingMisc_Align time"
+msgstr "起跳时间"
+
+msgid "StatsViews_targetingMisc_Signature"
+msgstr "信号半径"
+
+msgid "StatsViews_targetingMisc_Warp Speed"
+msgstr "跃迁速度"
+
+msgid "StatsViews_targetingMisc_Cargo"
+msgstr "货仓容量"

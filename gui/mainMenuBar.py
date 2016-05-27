@@ -59,35 +59,35 @@ class MainMenuBar(wx.MenuBar):
 
         # File menu
         fileMenu = wx.Menu()
-        self.Append(fileMenu, "&File")
+        self.Append(fileMenu, _("mainMenuBar_&File"))
 
-        fileMenu.Append(self.mainFrame.addPageId, "&New Tab\tCTRL+T", "Open a new fitting tab")
-        fileMenu.Append(self.mainFrame.closePageId, "&Close Tab\tCTRL+W", "Close the current fit")
+        fileMenu.Append(self.mainFrame.addPageId, _("mainMenuBar_&New Tab\tCTRL+T"), _("mainMenuBar_Open a new fitting tab"))
+        fileMenu.Append(self.mainFrame.closePageId, _("mainMenuBar_&Close Tab\tCTRL+W"), _("mainMenuBar_Close the current fit"))
         fileMenu.AppendSeparator()
 
-        fileMenu.Append(self.backupFitsId, "&Backup All Fittings", "Backup all fittings to a XML file")
-        fileMenu.Append(wx.ID_OPEN, "&Import Fittings\tCTRL+O", "Import fittings into pyfa")
-        fileMenu.Append(wx.ID_SAVEAS, "&Export Fitting\tCTRL+S", "Export fitting to another format")
+        fileMenu.Append(self.backupFitsId, _("mainMenuBar_&Backup All Fittings"), _("mainMenuBar_Backup all fittings to a XML file"))
+        fileMenu.Append(wx.ID_OPEN, _("mainMenuBar_&Import Fittings\tCTRL+O"), _("mainMenuBar_Import fittings into pyfa"))
+        fileMenu.Append(wx.ID_SAVEAS, _("mainMenuBar_&Export Fitting\tCTRL+S"), _("mainMenuBar_Export fitting to another format"))
         fileMenu.AppendSeparator()
-        fileMenu.Append(self.exportHtmlId, "Export HTML", "Export fits to HTML file (set in Preferences)")
-        fileMenu.Append(self.exportSkillsNeededId, "Export &Skills Needed", "Export skills needed for this fitting")
-        fileMenu.Append(self.importCharacterId, "Import C&haracter File", "Import characters into pyfa from file")
+        fileMenu.Append(self.exportHtmlId, _("mainMenuBar_Export HTML"), _("mainMenuBar_Export fits to HTML file (set in Preferences)"))
+        fileMenu.Append(self.exportSkillsNeededId, _("mainMenuBar_Export &Skills Needed"), _("mainMenuBar_Export skills needed for this fitting"))
+        fileMenu.Append(self.importCharacterId, _("mainMenuBar_Import &Character File"), _("mainMenuBar_Import characters into pyfa from file"))
         fileMenu.AppendSeparator()
         fileMenu.Append(wx.ID_EXIT)
 
         # Edit menu
         editMenu = wx.Menu()
-        self.Append(editMenu, "&Edit")
+        self.Append(editMenu, _("mainMenuBar_&Edit"))
 
         #editMenu.Append(wx.ID_UNDO)
         #editMenu.Append(wx.ID_REDO)
 
-        editMenu.Append(wx.ID_COPY, "To Clipboard\tCTRL+C", "Export a fit to the clipboard")
-        editMenu.Append(wx.ID_PASTE, "From Clipboard\tCTRL+V", "Import a fit from the clipboard")
+        editMenu.Append(wx.ID_COPY, _("mainMenuBar_To Clipboard\tCTRL+C"), _("mainMenuBar_Export a fit to the clipboard"))
+        editMenu.Append(wx.ID_PASTE, _("mainMenuBar_From Clipboard\tCTRL+V"), _("mainMenuBar_Import a fit from the clipboard"))
         editMenu.AppendSeparator()
-        editMenu.Append(self.saveCharId, "Save Character")
-        editMenu.Append(self.saveCharAsId, "Save Character As...")
-        editMenu.Append(self.revertCharId, "Revert Character")
+        editMenu.Append(self.saveCharId, _("mainMenuBar_Save Character"))
+        editMenu.Append(self.saveCharAsId, _("mainMenuBar_Save Character As..."))
+        editMenu.Append(self.revertCharId, _("mainMenuBar_Revert Character"))
 
         # Character menu
         windowMenu = wx.Menu()
