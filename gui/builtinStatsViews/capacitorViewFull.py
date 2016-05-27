@@ -29,7 +29,7 @@ class CapacitorViewFull(StatsView):
         StatsView.__init__(self)
         self.parent = parent
     def getHeaderText(self, fit):
-        return "Capacitor"
+        return _("StatsViews_capacitor_title")
 
     def getTextExtentW(self, text):
         width, height = self.parent.GetTextExtent( text )
@@ -59,7 +59,7 @@ class CapacitorViewFull(StatsView):
         hbox = wx.BoxSizer(wx.HORIZONTAL)
         box.Add(hbox, 0, wx.ALIGN_LEFT)
 
-        hbox.Add(wx.StaticText(parent, wx.ID_ANY, "Total: "), 0, wx.ALIGN_LEFT | wx.LEFT, 3)
+        hbox.Add(wx.StaticText(parent, wx.ID_ANY, _("StatsViews_capacitor_total")), 0, wx.ALIGN_LEFT | wx.LEFT, 3)
         lbl = wx.StaticText(parent, wx.ID_ANY, "0.0")
         setattr(self, "label%sCapacitorCapacity" % panel.capitalize(), lbl)
         hbox.Add(lbl, 0, wx.ALIGN_LEFT)
@@ -69,7 +69,7 @@ class CapacitorViewFull(StatsView):
         hbox = wx.BoxSizer(wx.HORIZONTAL)
         box.Add(hbox, 0, wx.ALIGN_LEFT)
 
-        lbl = wx.StaticText(parent, wx.ID_ANY, "Lasts ")
+        lbl = wx.StaticText(parent, wx.ID_ANY, _("StatsViews_capacitor_lasts"))
         hbox.Add(lbl, 0, wx.ALIGN_LEFT | wx.LEFT, 3)
         setattr(self, "label%sCapacitorState" % panel.capitalize(), lbl)
 
