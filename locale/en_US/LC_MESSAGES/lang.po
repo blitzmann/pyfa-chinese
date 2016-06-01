@@ -14,29 +14,6 @@ msgstr ""
 "Content-Transfer-Encoding: utf8\n"
 "Generated-By: pygettext.py 1.5\n"
 
-# aboutData.py
-
-msgid "aboutData_license_line_1"
-msgstr "pyfa is released under GNU GPLv3 - see included LICENSE file"
-
-msgid "aboutData_license_line_2"
-msgstr "All EVE-Online related materials are property of CCP hf."
-
-msgid "aboutData_license_line_3"
-msgstr "Silk Icons Set by famfamfam.com - Creative Commons Attribution 2.5 License"
-
-msgid "aboutData_license_line_4"
-msgstr "Fat Cow Icons by fatcow.com - Creative Commons Attribution 3.0 License"
-
-msgid "aboutData_description_line_1"
-msgstr "Pyfa (the Python Fitting Assistant) is an open-source standalone application able to "
-
-msgid "aboutData_description_line_2"
-msgstr "create and simulate fittings for EVE-Online SciFi MMORPG with a very high degree of "
-
-msgid "aboutData_description_line_3"
-msgstr "accuracy. Pyfa can run on all platforms where Python and wxWidgets are supported."
-
 #mainMenuBar.py
 
 msgid "mainMenuBar_&File"
@@ -113,6 +90,69 @@ msgstr "Save Character As..."
 
 msgid "mainMenuBar_Revert Character"
 msgstr "Revert Character"
+
+msgid "mainMenuBar_&Window"
+msgstr "&Window"
+
+msgid "mainMenuBar_&Character Editor\tCTRL+E"
+msgstr "&Character Editor\tCTRL+E"
+
+msgid "mainMenuBar_Damage Pattern Editor\tCTRL+D"
+msgstr "Damage Pattern Editor\tCTRL+D"
+
+msgid "mainMenuBar_Target Resists Editor\tCTRL+R"
+msgstr "Target Resists Editor\tCTRL+R"
+
+msgid "mainMenuBar_Implant Set Editor\tCTRL+I"
+msgstr "Implant Set Editor\tCTRL+I"
+
+msgid "mainMenuBar_Graphs\tCTRL+G"
+msgstr "Graphs\tCTRL+G"
+
+msgid "mainMenuBar_Preferences\t"
+msgstr "Preferences\t"
+
+msgid "mainMenuBar_Attribute Overrides\tCTRL+B"
+msgstr "Attribute Overrides\tCTRL+B"
+
+msgid "mainMenuBar_Turn Overrides On"
+msgstr "Turn Overrides On"
+
+msgid "mainMenuBar_&CREST"
+msgstr "&CREST"
+
+msgid "mainMenuBar_Manage Characters"
+msgstr "Manage Characters"
+
+msgid "mainMenuBar_Login to EVE"
+msgstr "Login to EVE"
+
+msgid "mainMenuBar_Browse EVE Fittings"
+msgstr "Browse EVE Fittings"
+
+msgid "mainMenuBar_Export To EVE"
+msgstr "Export To EVE"
+
+msgid "mainMenuBar_&Help"
+msgstr "&Help"
+
+msgid "mainMenuBar_Wiki"
+msgstr "Wiki"
+
+msgid "mainMenuBar_Go to wiki on GitHub"
+msgstr "Go to wiki on GitHub"
+
+msgid "mainMenuBar_Forums"
+msgstr "Forums"
+
+msgid "mainMenuBar_Go to EVE Online Forum thread"
+msgstr "Go to EVE Online Forum thread"
+
+msgid "mainMenuBar_Open Widgets Inspect tool"
+msgstr "Open Widgets Inspect tool"
+
+msgid "mainMenuBar_Open Widgets Inspect tool"
+msgstr "Open Widgets Inspect tool"
 
 # builtinStatsViews/capacitorViewFull.py
 

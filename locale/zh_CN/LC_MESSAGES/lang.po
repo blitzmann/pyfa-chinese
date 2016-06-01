@@ -14,29 +14,6 @@ msgstr ""
 "Content-Transfer-Encoding: utf8\n"
 "Generated-By: pygettext.py 1.5\n"
 
-# aboutData.py
-
-msgid "aboutData_license_line_1"
-msgstr "pyfa 基于 GNU GPLv3 开源协议 - 详情请参阅 LICENSE 文件"
-
-msgid "aboutData_license_line_2"
-msgstr "所有 EVE-Online 相关的材质版权均归 CCP 公司所有"
-
-msgid "aboutData_license_line_3"
-msgstr "丝线图标集 by famfamfam.com - Creative Commons Attribution 2.5 License"
-
-msgid "aboutData_license_line_4"
-msgstr "肥牛图标 by fatcow.com - Creative Commons Attribution 3.0 License"
-
-msgid "aboutData_description_line_1"
-msgstr "Pyfa (Python 配装助手) 是一款独立开源软件，它可以创建并模拟 "
-
-msgid "aboutData_description_line_2"
-msgstr "EVE-Online 这款科幻 MMORPG 游戏中的舰船装配，具有相当高的仿 "
-
-msgid "aboutData_description_line_3"
-msgstr "真度。Pyfa 可以运行在所有具备 Python 和 wxWidgets 的平台上。 "
-
 #mainMenuBar.py
 
 msgid "mainMenuBar_&File"
@@ -113,6 +90,69 @@ msgstr "保存角色为..."
 
 msgid "mainMenuBar_Revert Character"
 msgstr "还原角色"
+
+msgid "mainMenuBar_&Window"
+msgstr "&窗口"
+
+msgid "mainMenuBar_&Character Editor\tCTRL+E"
+msgstr "&角色编辑器\tCTRL+E"
+
+msgid "mainMenuBar_Damage Pattern Editor\tCTRL+D"
+msgstr "伤害类型编辑器\tCTRL+D"
+
+msgid "mainMenuBar_Target Resists Editor\tCTRL+R"
+msgstr "目标抗性编辑器\tCTRL+R"
+
+msgid "mainMenuBar_Implant Set Editor\tCTRL+I"
+msgstr "植入体方案编辑器\tCTRL+I"
+
+msgid "mainMenuBar_Graphs\tCTRL+G"
+msgstr "伤害图表\tCTRL+G"
+
+msgid "mainMenuBar_Preferences\t"
+msgstr "属性\t"
+
+msgid "mainMenuBar_Attribute Overrides\tCTRL+B"
+msgstr "装备属性编辑器\tCTRL+B"
+
+msgid "mainMenuBar_Turn Overrides On"
+msgstr "启用属性覆盖"
+
+msgid "mainMenuBar_&CREST"
+msgstr "&游戏交互"
+
+msgid "mainMenuBar_Manage Characters"
+msgstr "角色管理"
+
+msgid "mainMenuBar_Login to EVE"
+msgstr "登录到 EVE"
+
+msgid "mainMenuBar_Browse EVE Fittings"
+msgstr "浏览已有配装"
+
+msgid "mainMenuBar_Export To EVE"
+msgstr "导出至 EVE"
+
+msgid "mainMenuBar_&Help"
+msgstr "&帮助"
+
+msgid "mainMenuBar_Wiki"
+msgstr "Wiki"
+
+msgid "mainMenuBar_Go to wiki on GitHub"
+msgstr "跳转到 Github Wiki"
+
+msgid "mainMenuBar_Forums"
+msgstr "主页"
+
+msgid "mainMenuBar_Go to EVE Online Forum thread"
+msgstr "跳转到 EVE-Online 官方论坛"
+
+msgid "mainMenuBar_Open Widgets Inspect tool"
+msgstr "打开组件调试工具"
+
+msgid "mainMenuBar_Open Widgets Inspect tool"
+msgstr "打开组件调试工具"
 
 # builtinStatsViews/capacitorViewFull.py
 

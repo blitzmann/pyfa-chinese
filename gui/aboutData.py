@@ -20,10 +20,10 @@ import config
 
 versionString = "{0} {1} - {2} {3}".format(config.version, config.tag, config.expansionName, config.expansionVersion)
 licenses = (
-    _("aboutData_license_line_1"),
-    _("aboutData_license_line_2"),
-    _("aboutData_license_line_3"),
-    _("aboutData_license_line_4")
+    "pyfa is released under GNU GPLv3 - see included LICENSE file",
+    "All EVE-Online related materials are property of CCP hf.",
+    "Silk Icons Set by famfamfam.com - Creative Commons Attribution 2.5 License",
+    "Fat Cow Icons by fatcow.com - Creative Commons Attribution 3.0 License"
 )
 developers = (
     "blitzmann \t(Sable Blitzmann) (maintainer)",
@@ -36,7 +36,7 @@ credits = (
     "Corollax (Aamrr) \tVarious EOS / pyfa improvements",
     "Dreae (Dreae)\tPyCrest")
 description = (
-    _("aboutData_description_line_1"),
-    _("aboutData_description_line_2"),
-    _("aboutData_description_line_3")
+    "Pyfa (the Python Fitting Assistant) is an open-source standalone application able to "
+    "create and simulate fittings for EVE-Online SciFi MMORPG with a very high degree of "
+    "accuracy. Pyfa can run on all platforms where Python and wxWidgets are supported."
 )
