@@ -66,7 +66,7 @@ class FirepowerViewFull(StatsView):
             box = wx.BoxSizer(wx.VERTICAL)
             baseBox.Add(box, 0, wx.ALIGN_CENTER)
 
-            box.Add(wx.StaticText(parent, wx.ID_ANY, damageType.capitalize()), 0, wx.ALIGN_LEFT)
+            box.Add(wx.StaticText(parent, wx.ID_ANY, _("StatsViews_firepower_" + damageType).capitalize()), 0, wx.ALIGN_LEFT)
 
             hbox = wx.BoxSizer(wx.HORIZONTAL)
             box.Add(hbox, 1, wx.ALIGN_CENTER)
@@ -90,7 +90,7 @@ class FirepowerViewFull(StatsView):
 
         lbl = wx.StaticText(parent, wx.ID_ANY, "0.0")
         setattr(self, "label%sVolleyTotal" % panel.capitalize(), lbl)
-        gridS.Add(wx.StaticText(parent, wx.ID_ANY, " Volley: "), 0, wx.ALL | wx.ALIGN_RIGHT)
+        gridS.Add(wx.StaticText(parent, wx.ID_ANY, _("StatsViews_firepower_ Volley: ")), 0, wx.ALL | wx.ALIGN_RIGHT)
         gridS.Add(lbl, 0, wx.ALIGN_LEFT)
 
         self._cachedValues.append(0)

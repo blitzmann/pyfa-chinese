@@ -23,6 +23,8 @@ import re
 import config
 import gettext
 gettext.install('lang', './locale', unicode=True)
+reload(sys)
+sys.setdefaultencoding( "utf-8" )
 
 from optparse import OptionParser, BadOptionError, AmbiguousOptionError
 

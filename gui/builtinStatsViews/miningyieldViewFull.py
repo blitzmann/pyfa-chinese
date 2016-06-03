@@ -31,7 +31,7 @@ class MiningYieldViewFull(StatsView):
         self.parent = parent
         self._cachedValues = []
     def getHeaderText(self, fit):
-        return "Mining Yield"
+        return _("StatsViews_miningyield_title")
 
     def getTextExtentW(self, text):
         width, height = self.parent.GetTextExtent( text )
@@ -60,7 +60,7 @@ class MiningYieldViewFull(StatsView):
             box = wx.BoxSizer(wx.VERTICAL)
             baseBox.Add(box, 0, wx.ALIGN_CENTER)
 
-            box.Add(wx.StaticText(parent, wx.ID_ANY, miningType.capitalize()), 0, wx.ALIGN_LEFT)
+            box.Add(wx.StaticText(parent, wx.ID_ANY, _("StatsViews_miningyield_" + miningType).capitalize()), 0, wx.ALIGN_LEFT)
 
             hbox = wx.BoxSizer(wx.HORIZONTAL)
             box.Add(hbox, 1, wx.ALIGN_CENTER)
@@ -81,7 +81,7 @@ class MiningYieldViewFull(StatsView):
         box = wx.BoxSizer(wx.VERTICAL)
         baseBox.Add(box, 0, wx.EXPAND)
 
-        box.Add(wx.StaticText(parent, wx.ID_ANY, "Total"), 0, wx.ALIGN_LEFT)
+        box.Add(wx.StaticText(parent, wx.ID_ANY, _("StatsViews_miningyield_Total")), 0, wx.ALIGN_LEFT)
 
         hbox = wx.BoxSizer(wx.HORIZONTAL)
         box.Add(hbox, 1, wx.EXPAND)

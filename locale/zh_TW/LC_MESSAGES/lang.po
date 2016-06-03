@@ -17,250 +17,250 @@ msgstr ""
 #mainMenuBar.py
 
 msgid "mainMenuBar_&File"
-msgstr "&File"
+msgstr "&檔案"
 
 msgid "mainMenuBar_&New Tab\tCTRL+T"
-msgstr "&New Tab\tCTRL+T"
+msgstr "&新建標籤頁\tCTRL+T"
 
 msgid "mainMenuBar_Open a new fitting tab"
-msgstr "Open a new fitting tab"
+msgstr "打開一個新的裝配頁"
 
 msgid "mainMenuBar_&Close Tab\tCTRL+W"
-msgstr "&Close Tab\tCTRL+W"
+msgstr "&關閉標籤頁\tCTRL+W"
 
 msgid "mainMenuBar_Close the current fit"
-msgstr "Close the current fit"
+msgstr "關閉選定的裝配頁"
 
 msgid "mainMenuBar_&Backup All Fittings"
-msgstr "&Backup All Fittings"
+msgstr "&備份所有裝配"
 
 msgid "mainMenuBar_Backup all fittings to a XML file"
-msgstr "Backup all fittings to a XML file"
+msgstr "保存所有裝配為 XML 檔案"
 
 msgid "mainMenuBar_&Import Fittings\tCTRL+O"
-msgstr "&Import Fittings\tCTRL+O"
+msgstr "&導入裝配\tCTRL+O"
 
 msgid "mainMenuBar_Import fittings into pyfa"
-msgstr "Import fittings into pyfa"
+msgstr "導入裝配至 pyfa"
 
 msgid "mainMenuBar_&Export Fitting\tCTRL+S"
-msgstr "&Export Fitting\tCTRL+S"
+msgstr "&導出裝配\tCTRL+S"
 
 msgid "mainMenuBar_Export fitting to another format"
-msgstr "Export fitting to another format"
+msgstr "將裝配導出為其他格式"
 
 msgid "mainMenuBar_Export HTML"
-msgstr "Export HTML"
+msgstr "導出為 HTML"
 
 msgid "mainMenuBar_Export fits to HTML file (set in Preferences)"
-msgstr "Export fits to HTML file (set in Preferences)"
+msgstr "將裝配導出為 HTML 檔案（根據首選項配置）"
 
 msgid "mainMenuBar_Export &Skills Needed"
-msgstr "Export &Skills Needed"
+msgstr "導出 &技能需求"
 
 msgid "mainMenuBar_Export skills needed for this fitting"
-msgstr "Export skills needed for this fitting"
+msgstr "導出與當前裝配相關的技能"
 
-msgid "mainMenuBar_Import C&haracter File"
-msgstr "Import C&haracter File"
+msgid "mainMenuBar_Import &Character File"
+msgstr "導入 &角色檔案"
 
 msgid "mainMenuBar_Import characters into pyfa from file"
-msgstr "Import characters into pyfa from file"
+msgstr "從檔案中導入角色至 pyfa"
 
 msgid "mainMenuBar_&Edit"
-msgstr "&Edit"
+msgstr "&編輯"
 
 msgid "mainMenuBar_To Clipboard\tCTRL+C"
-msgstr "To Clipboard\tCTRL+C"
+msgstr "複製到剪貼板\tCTRL+C"
 
 msgid "mainMenuBar_Export a fit to the clipboard"
-msgstr "Export a fit to the clipboard"
+msgstr "導出裝配至剪貼板"
 
 msgid "mainMenuBar_From Clipboard\tCTRL+V"
-msgstr "From Clipboard\tCTRL+V"
+msgstr "從剪貼板導入\tCTRL+V"
 
 msgid "mainMenuBar_Import a fit from the clipboard"
-msgstr "Import a fit from the clipboard"
+msgstr "從剪貼板導入配置"
 
 msgid "mainMenuBar_Save Character"
-msgstr "Save Character"
+msgstr "保存角色"
 
 msgid "mainMenuBar_Save Character As..."
-msgstr "Save Character As..."
+msgstr "保存角色為..."
 
 msgid "mainMenuBar_Revert Character"
-msgstr "Revert Character"
+msgstr "還原角色"
 
 msgid "mainMenuBar_&Window"
-msgstr "&Window"
+msgstr "&窗口"
 
 msgid "mainMenuBar_&Character Editor\tCTRL+E"
-msgstr "&Character Editor\tCTRL+E"
+msgstr "&角色編輯器\tCTRL+E"
 
 msgid "mainMenuBar_Damage Pattern Editor\tCTRL+D"
-msgstr "Damage Pattern Editor\tCTRL+D"
+msgstr "傷害類型編輯器\tCTRL+D"
 
 msgid "mainMenuBar_Target Resists Editor\tCTRL+R"
-msgstr "Target Resists Editor\tCTRL+R"
+msgstr "目標抗性編輯器\tCTRL+R"
 
 msgid "mainMenuBar_Implant Set Editor\tCTRL+I"
-msgstr "Implant Set Editor\tCTRL+I"
+msgstr "植入體方案編輯器\tCTRL+I"
 
 msgid "mainMenuBar_Graphs\tCTRL+G"
-msgstr "Graphs\tCTRL+G"
+msgstr "傷害圖表\tCTRL+G"
 
 msgid "mainMenuBar_Preferences\t"
-msgstr "Preferences\t"
+msgstr "屬性\t"
 
 msgid "mainMenuBar_Attribute Overrides\tCTRL+B"
-msgstr "Attribute Overrides\tCTRL+B"
+msgstr "裝備屬性編輯器\tCTRL+B"
 
 msgid "mainMenuBar_Turn Overrides On"
-msgstr "Turn Overrides On"
+msgstr "啟用屬性覆蓋"
 
 msgid "mainMenuBar_&CREST"
-msgstr "&CREST"
+msgstr "&遊戲交互"
 
 msgid "mainMenuBar_Manage Characters"
-msgstr "Manage Characters"
+msgstr "角色管理"
 
 msgid "mainMenuBar_Login to EVE"
-msgstr "Login to EVE"
+msgstr "登錄到 EVE"
 
 msgid "mainMenuBar_Browse EVE Fittings"
-msgstr "Browse EVE Fittings"
+msgstr "流覽已有配裝"
 
 msgid "mainMenuBar_Export To EVE"
-msgstr "Export To EVE"
+msgstr "導出至 EVE"
 
 msgid "mainMenuBar_&Help"
-msgstr "&Help"
+msgstr "&幫助"
 
 msgid "mainMenuBar_Wiki"
 msgstr "Wiki"
 
 msgid "mainMenuBar_Go to wiki on GitHub"
-msgstr "Go to wiki on GitHub"
+msgstr "跳轉到 Github Wiki"
 
 msgid "mainMenuBar_Forums"
-msgstr "Forums"
+msgstr "主頁"
 
 msgid "mainMenuBar_Go to EVE Online Forum thread"
-msgstr "Go to EVE Online Forum thread"
+msgstr "跳轉到 EVE-Online 官方論壇"
 
 msgid "mainMenuBar_Open Widgets Inspect tool"
-msgstr "Open Widgets Inspect tool"
+msgstr "打開組件調試工具"
 
 msgid "mainMenuBar_Open Widgets Inspect tool"
-msgstr "Open Widgets Inspect tool"
+msgstr "打開組件調試工具"
 
 # builtinStatsViews/capacitorViewFull.py
 
 msgid "StatsViews_capacitor_title"
-msgstr "Capacitor"
+msgstr "電容"
 
 msgid "StatsViews_capacitor_total"
-msgstr "Total: "
+msgstr "總計: "
 
 msgid "StatsViews_capacitor_lasts"
-msgstr "Lasts "
+msgstr "耗盡 "
 
 # builtinStatsViews/firepowerViewFull.py
 
 msgid "StatsViews_firepower_title"
-msgstr "Firepower"
+msgstr "火力"
 
 msgid "StatsViews_firepower_weapon"
-msgstr "weapon"
+msgstr "炮臺"
 
 msgid "StatsViews_firepower_drone"
-msgstr "drone"
+msgstr "無人機"
 
 msgid "StatsViews_firepower_ Volley: "
-msgstr " Volley: "
+msgstr " 齊射: "
 
 # builtinStatsViews/miningyieldViewFull.py
 
 msgid "StatsViews_miningyield_title"
-msgstr "Mining Yield"
+msgstr "礦物采集"
 
 msgid "StatsViews_miningyield_miner"
-msgstr "miner"
+msgstr "礦槍"
 
 msgid "StatsViews_miningyield_drone"
-msgstr "drone"
+msgstr "無人機"
 
 msgid "StatsViews_miningyield_Total"
-msgstr "Total"
+msgstr "總計"
 
 # builtinStatsViews/priceViewFull.py
 
 msgid "StatsViews_price_title"
-msgstr "Price"
+msgstr "成本"
 
 msgid "StatsViews_price_ship"
-msgstr "ship"
+msgstr "船體"
 
 msgid "StatsViews_price_fittings"
-msgstr "fittings"
+msgstr "配件"
 
 msgid "StatsViews_price_total"
-msgstr "total"
+msgstr "總計"
 
 # builtinStatsViews/rechargeViewFull.py
 
 msgid "StatsViews_recharge_title"
-msgstr "Recharge rates"
+msgstr "回充速度"
 
 msgid "StatsViews_recharge_Passive shield recharge"
-msgstr "Passive shield recharge"
+msgstr "被動護盾回充速度"
 
 msgid "StatsViews_recharge_Active shield boost"
-msgstr "Active shield boost"
+msgstr "主動護盾回充速度"
 
 msgid "StatsViews_recharge_Armor repair amount"
-msgstr "Armor repair amount"
+msgstr "裝甲維修速度"
 
 msgid "StatsViews_recharge_Hull repair amount"
-msgstr "Hull repair amount"
+msgstr "結構維修速度"
 
 msgid "StatsViews_recharge_Reinforced"
-msgstr "Reinforced"
+msgstr "不計算電容消耗的回充速度"
 
 msgid "StatsViews_recharge_Sustained"
-msgstr "Sustained"
+msgstr "永動前提下的回充速度"
 
 # builtinStatsViews/targetingMiscViewFull.py
 
 msgid "StatsViews_targetingMisc_title"
-msgstr "Targeting && Misc"
+msgstr "鎖定 && 雜項"
 
 msgid "StatsViews_targetingMisc_Targets"
-msgstr "Targets"
+msgstr "鎖定目標數"
 
 msgid "StatsViews_targetingMisc_Range"
-msgstr "Range"
+msgstr "鎖定距離"
 
 msgid "StatsViews_targetingMisc_Scan res."
-msgstr "Scan res."
+msgstr "解析度"
 
 msgid "StatsViews_targetingMisc_Sensor str."
-msgstr "Sensor str."
+msgstr "感測器強度"
 
 msgid "StatsViews_targetingMisc_Drone range"
-msgstr "Drone range"
+msgstr "無人機控制半徑"
 
 msgid "StatsViews_targetingMisc_Speed"
-msgstr "Speed"
+msgstr "最大速度"
 
 msgid "StatsViews_targetingMisc_Align time"
-msgstr "Align time"
+msgstr "起跳時間"
 
 msgid "StatsViews_targetingMisc_Signature"
-msgstr "Signature"
+msgstr "信號半徑"
 
 msgid "StatsViews_targetingMisc_Warp Speed"
-msgstr "Warp Speed"
+msgstr "躍遷速度"
 
 msgid "StatsViews_targetingMisc_Cargo"
-msgstr "Cargo"
+msgstr "貨倉容量"

@@ -5,207 +5,262 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2016-05-19 17:07+ÖĞ¹ú±ê×¼Ê±¼ä\n"
+"POT-Creation-Date: 2016-05-19 17:07+ä¸­å›½æ ‡å‡†æ—¶é—´\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=gb2312\n"
+"Content-Type: text/plain; charset=utf8\n"
 "Content-Transfer-Encoding: utf8\n"
 "Generated-By: pygettext.py 1.5\n"
 
 #mainMenuBar.py
 
 msgid "mainMenuBar_&File"
-msgstr "&ÎÄ¼ş"
+msgstr "&æ–‡ä»¶"
 
 msgid "mainMenuBar_&New Tab\tCTRL+T"
-msgstr "&ĞÂ±êÇ©Ò³\tCTRL+T"
+msgstr "&æ–°å»ºæ ‡ç­¾é¡µ\tCTRL+T"
 
 msgid "mainMenuBar_Open a new fitting tab"
-msgstr "´ò¿ªÒ»¸öĞÂµÄ×°ÅäÒ³"
+msgstr "æ‰“å¼€ä¸€ä¸ªæ–°çš„è£…é…é¡µ"
 
 msgid "mainMenuBar_&Close Tab\tCTRL+W"
-msgstr "&¹Ø±Õ±êÇ©Ò³\tCTRL+W"
+msgstr "&å…³é—­æ ‡ç­¾é¡µ\tCTRL+W"
 
 msgid "mainMenuBar_Close the current fit"
-msgstr "¹Ø±ÕÑ¡¶¨µÄ×°ÅäÒ³"
+msgstr "å…³é—­é€‰å®šçš„è£…é…é¡µ"
 
 msgid "mainMenuBar_&Backup All Fittings"
-msgstr "&±¸·İËùÓĞ×°Åä"
+msgstr "&å¤‡ä»½æ‰€æœ‰è£…é…"
 
 msgid "mainMenuBar_Backup all fittings to a XML file"
-msgstr "±£´æËùÓĞ×°ÅäÎª XML ÎÄ¼ş"
+msgstr "ä¿å­˜æ‰€æœ‰è£…é…ä¸º XML æ–‡ä»¶"
 
 msgid "mainMenuBar_&Import Fittings\tCTRL+O"
-msgstr "&µ¼Èë×°Åä\tCTRL+O"
+msgstr "&å¯¼å…¥è£…é…\tCTRL+O"
 
 msgid "mainMenuBar_Import fittings into pyfa"
-msgstr "µ¼Èë×°ÅäÖÁ pyfa"
+msgstr "å¯¼å…¥è£…é…è‡³ pyfa"
 
 msgid "mainMenuBar_&Export Fitting\tCTRL+S"
-msgstr "&µ¼³ö×°Åä\tCTRL+S"
+msgstr "&å¯¼å‡ºè£…é…\tCTRL+S"
 
 msgid "mainMenuBar_Export fitting to another format"
-msgstr "½«×°Åäµ¼³öÎªÆäËû¸ñÊ½"
+msgstr "å°†è£…é…å¯¼å‡ºä¸ºå…¶ä»–æ ¼å¼"
 
 msgid "mainMenuBar_Export HTML"
-msgstr "µ¼³öÎª HTML"
+msgstr "å¯¼å‡ºä¸º HTML"
 
 msgid "mainMenuBar_Export fits to HTML file (set in Preferences)"
-msgstr "½«×°Åäµ¼³öÎª HTML ÎÄ¼ş£¨¸ù¾İÊ×Ñ¡ÏîÅäÖÃ£©"
+msgstr "å°†è£…é…å¯¼å‡ºä¸º HTML æ–‡ä»¶ï¼ˆæ ¹æ®é¦–é€‰é¡¹é…ç½®ï¼‰"
 
 msgid "mainMenuBar_Export &Skills Needed"
-msgstr "µ¼³ö &¼¼ÄÜĞèÇó"
+msgstr "å¯¼å‡º &æŠ€èƒ½éœ€æ±‚"
 
 msgid "mainMenuBar_Export skills needed for this fitting"
-msgstr "µ¼³öÓëµ±Ç°×°ÅäÏà¹ØµÄ¼¼ÄÜ"
+msgstr "å¯¼å‡ºä¸å½“å‰è£…é…ç›¸å…³çš„æŠ€èƒ½"
 
 msgid "mainMenuBar_Import &Character File"
-msgstr "µ¼Èë &½ÇÉ«ÎÄ¼ş"
+msgstr "å¯¼å…¥ &è§’è‰²æ–‡ä»¶"
 
 msgid "mainMenuBar_Import characters into pyfa from file"
-msgstr "´ÓÎÄ¼şÖĞµ¼Èë½ÇÉ«ÖÁ pyfa"
+msgstr "ä»æ–‡ä»¶ä¸­å¯¼å…¥è§’è‰²è‡³ pyfa"
 
 msgid "mainMenuBar_&Edit"
-msgstr "&±à¼­"
+msgstr "&ç¼–è¾‘"
 
 msgid "mainMenuBar_To Clipboard\tCTRL+C"
-msgstr "¸´ÖÆµ½¼ôÌù°å\tCTRL+C"
+msgstr "å¤åˆ¶åˆ°å‰ªè´´æ¿\tCTRL+C"
 
 msgid "mainMenuBar_Export a fit to the clipboard"
-msgstr "µ¼³ö×°ÅäÖÁ¼ôÌù°å"
+msgstr "å¯¼å‡ºè£…é…è‡³å‰ªè´´æ¿"
 
 msgid "mainMenuBar_From Clipboard\tCTRL+V"
-msgstr "´Ó¼ôÌù°åµ¼Èë\tCTRL+V"
+msgstr "ä»å‰ªè´´æ¿å¯¼å…¥\tCTRL+V"
 
 msgid "mainMenuBar_Import a fit from the clipboard"
-msgstr "´Ó¼ôÌù°åµ¼ÈëÅäÖÃ"
+msgstr "ä»å‰ªè´´æ¿å¯¼å…¥é…ç½®"
 
 msgid "mainMenuBar_Save Character"
-msgstr "±£´æ½ÇÉ«"
+msgstr "ä¿å­˜è§’è‰²"
 
 msgid "mainMenuBar_Save Character As..."
-msgstr "±£´æ½ÇÉ«Îª..."
+msgstr "ä¿å­˜è§’è‰²ä¸º..."
 
 msgid "mainMenuBar_Revert Character"
-msgstr "»¹Ô­½ÇÉ«"
+msgstr "è¿˜åŸè§’è‰²"
 
 msgid "mainMenuBar_&Window"
-msgstr "&´°¿Ú"
+msgstr "&çª—å£"
 
 msgid "mainMenuBar_&Character Editor\tCTRL+E"
-msgstr "&½ÇÉ«±à¼­Æ÷\tCTRL+E"
+msgstr "&è§’è‰²ç¼–è¾‘å™¨\tCTRL+E"
 
 msgid "mainMenuBar_Damage Pattern Editor\tCTRL+D"
-msgstr "ÉËº¦ÀàĞÍ±à¼­Æ÷\tCTRL+D"
+msgstr "ä¼¤å®³ç±»å‹ç¼–è¾‘å™¨\tCTRL+D"
 
 msgid "mainMenuBar_Target Resists Editor\tCTRL+R"
-msgstr "Ä¿±ê¿¹ĞÔ±à¼­Æ÷\tCTRL+R"
+msgstr "ç›®æ ‡æŠ—æ€§ç¼–è¾‘å™¨\tCTRL+R"
 
 msgid "mainMenuBar_Implant Set Editor\tCTRL+I"
-msgstr "Ö²ÈëÌå·½°¸±à¼­Æ÷\tCTRL+I"
+msgstr "æ¤å…¥ä½“æ–¹æ¡ˆç¼–è¾‘å™¨\tCTRL+I"
 
 msgid "mainMenuBar_Graphs\tCTRL+G"
-msgstr "ÉËº¦Í¼±í\tCTRL+G"
+msgstr "ä¼¤å®³å›¾è¡¨\tCTRL+G"
 
 msgid "mainMenuBar_Preferences\t"
-msgstr "ÊôĞÔ\t"
+msgstr "å±æ€§\t"
 
 msgid "mainMenuBar_Attribute Overrides\tCTRL+B"
-msgstr "×°±¸ÊôĞÔ±à¼­Æ÷\tCTRL+B"
+msgstr "è£…å¤‡å±æ€§ç¼–è¾‘å™¨\tCTRL+B"
 
 msgid "mainMenuBar_Turn Overrides On"
-msgstr "ÆôÓÃÊôĞÔ¸²¸Ç"
+msgstr "å¯ç”¨å±æ€§è¦†ç›–"
 
 msgid "mainMenuBar_&CREST"
-msgstr "&ÓÎÏ·½»»¥"
+msgstr "&æ¸¸æˆäº¤äº’"
 
 msgid "mainMenuBar_Manage Characters"
-msgstr "½ÇÉ«¹ÜÀí"
+msgstr "è§’è‰²ç®¡ç†"
 
 msgid "mainMenuBar_Login to EVE"
-msgstr "µÇÂ¼µ½ EVE"
+msgstr "ç™»å½•åˆ° EVE"
 
 msgid "mainMenuBar_Browse EVE Fittings"
-msgstr "ä¯ÀÀÒÑÓĞÅä×°"
+msgstr "æµè§ˆå·²æœ‰é…è£…"
 
 msgid "mainMenuBar_Export To EVE"
-msgstr "µ¼³öÖÁ EVE"
+msgstr "å¯¼å‡ºè‡³ EVE"
 
 msgid "mainMenuBar_&Help"
-msgstr "&°ïÖú"
+msgstr "&å¸®åŠ©"
 
 msgid "mainMenuBar_Wiki"
 msgstr "Wiki"
 
 msgid "mainMenuBar_Go to wiki on GitHub"
-msgstr "Ìø×ªµ½ Github Wiki"
+msgstr "è·³è½¬åˆ° Github Wiki"
 
 msgid "mainMenuBar_Forums"
-msgstr "Ö÷Ò³"
+msgstr "ä¸»é¡µ"
 
 msgid "mainMenuBar_Go to EVE Online Forum thread"
-msgstr "Ìø×ªµ½ EVE-Online ¹Ù·½ÂÛÌ³"
+msgstr "è·³è½¬åˆ° EVE-Online å®˜æ–¹è®ºå›"
 
 msgid "mainMenuBar_Open Widgets Inspect tool"
-msgstr "´ò¿ª×é¼şµ÷ÊÔ¹¤¾ß"
+msgstr "æ‰“å¼€ç»„ä»¶è°ƒè¯•å·¥å…·"
 
 msgid "mainMenuBar_Open Widgets Inspect tool"
-msgstr "´ò¿ª×é¼şµ÷ÊÔ¹¤¾ß"
+msgstr "æ‰“å¼€ç»„ä»¶è°ƒè¯•å·¥å…·"
 
 # builtinStatsViews/capacitorViewFull.py
 
 msgid "StatsViews_capacitor_title"
-msgstr "µçÈİ"
+msgstr "ç”µå®¹"
 
 msgid "StatsViews_capacitor_total"
-msgstr "×Ü¼Æ: "
+msgstr "æ€»è®¡: "
 
 msgid "StatsViews_capacitor_lasts"
-msgstr "ºÄ¾¡ "
+msgstr "è€—å°½ "
 
 # builtinStatsViews/firepowerViewFull.py
 
 msgid "StatsViews_firepower_title"
-msgstr "»ğÁ¦"
+msgstr "ç«åŠ›"
+
+msgid "StatsViews_firepower_weapon"
+msgstr "ç‚®å°"
+
+msgid "StatsViews_firepower_drone"
+msgstr "æ— äººæœº"
+
+msgid "StatsViews_firepower_ Volley: "
+msgstr " é½å°„: "
+
+# builtinStatsViews/miningyieldViewFull.py
+
+msgid "StatsViews_miningyield_title"
+msgstr "çŸ¿ç‰©é‡‡é›†"
+
+msgid "StatsViews_miningyield_miner"
+msgstr "çŸ¿æª"
+
+msgid "StatsViews_miningyield_drone"
+msgstr "æ— äººæœº"
+
+msgid "StatsViews_miningyield_Total"
+msgstr "æ€»è®¡"
 
 # builtinStatsViews/priceViewFull.py
 
 msgid "StatsViews_price_title"
-msgstr "³É±¾"
+msgstr "æˆæœ¬"
+
+msgid "StatsViews_price_ship"
+msgstr "èˆ¹ä½“"
+
+msgid "StatsViews_price_fittings"
+msgstr "é…ä»¶"
+
+msgid "StatsViews_price_total"
+msgstr "æ€»è®¡"
+
+# builtinStatsViews/rechargeViewFull.py
+
+msgid "StatsViews_recharge_title"
+msgstr "å›å……é€Ÿåº¦"
+
+msgid "StatsViews_recharge_Passive shield recharge"
+msgstr "è¢«åŠ¨æŠ¤ç›¾å›å……é€Ÿåº¦"
+
+msgid "StatsViews_recharge_Active shield boost"
+msgstr "ä¸»åŠ¨æŠ¤ç›¾å›å……é€Ÿåº¦"
+
+msgid "StatsViews_recharge_Armor repair amount"
+msgstr "è£…ç”²ç»´ä¿®é€Ÿåº¦"
+
+msgid "StatsViews_recharge_Hull repair amount"
+msgstr "ç»“æ„ç»´ä¿®é€Ÿåº¦"
+
+msgid "StatsViews_recharge_Reinforced"
+msgstr "ä¸è®¡ç®—ç”µå®¹æ¶ˆè€—çš„å›å……é€Ÿåº¦"
+
+msgid "StatsViews_recharge_Sustained"
+msgstr "æ°¸åŠ¨å‰æä¸‹çš„å›å……é€Ÿåº¦"
 
 # builtinStatsViews/targetingMiscViewFull.py
 
 msgid "StatsViews_targetingMisc_title"
-msgstr "Ëø¶¨ && ÔÓÏî"
+msgstr "é”å®š && æ‚é¡¹"
 
 msgid "StatsViews_targetingMisc_Targets"
-msgstr "Ëø¶¨Ä¿±êÊı"
+msgstr "é”å®šç›®æ ‡æ•°"
 
 msgid "StatsViews_targetingMisc_Range"
-msgstr "Ëø¶¨¾àÀë"
+msgstr "é”å®šè·ç¦»"
 
 msgid "StatsViews_targetingMisc_Scan res."
-msgstr "·Ö±æÂÊ"
+msgstr "åˆ†è¾¨ç‡"
 
 msgid "StatsViews_targetingMisc_Sensor str."
-msgstr "´«¸ĞÆ÷Ç¿¶È"
+msgstr "ä¼ æ„Ÿå™¨å¼ºåº¦"
 
 msgid "StatsViews_targetingMisc_Drone range"
-msgstr "ÎŞÈË»ú¿ØÖÆ°ë¾¶"
+msgstr "æ— äººæœºæ§åˆ¶åŠå¾„"
 
 msgid "StatsViews_targetingMisc_Speed"
-msgstr "×î´óËÙ¶È"
+msgstr "æœ€å¤§é€Ÿåº¦"
 
 msgid "StatsViews_targetingMisc_Align time"
-msgstr "ÆğÌøÊ±¼ä"
+msgstr "èµ·è·³æ—¶é—´"
 
 msgid "StatsViews_targetingMisc_Signature"
-msgstr "ĞÅºÅ°ë¾¶"
+msgstr "ä¿¡å·åŠå¾„"
 
 msgid "StatsViews_targetingMisc_Warp Speed"
-msgstr "Ô¾Ç¨ËÙ¶È"
+msgstr "è·ƒè¿é€Ÿåº¦"
 
 msgid "StatsViews_targetingMisc_Cargo"
-msgstr "»õ²ÖÈİÁ¿"
+msgstr "è´§ä»“å®¹é‡"
