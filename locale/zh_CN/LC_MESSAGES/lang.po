@@ -165,6 +165,9 @@ msgstr "总计: "
 msgid "StatsViews_capacitor_lasts"
 msgstr "耗尽 "
 
+msgid "StatsViews_capacitor_Stable: "
+msgstr "稳定: "
+
 # builtinStatsViews/firepowerViewFull.py
 
 msgid "StatsViews_firepower_title"
@@ -229,6 +232,100 @@ msgstr "不计算电容消耗的回充速度"
 
 msgid "StatsViews_recharge_Sustained"
 msgstr "永动前提下的回充速度"
+
+# builtinStatsViews/resistancesViewFull.py
+
+msgid "StatsViews_resistances_title"
+msgstr "抗性"
+
+msgid "StatsViews_resistances_Electromagnetic resistance"
+msgstr "电磁抗性"
+
+msgid "StatsViews_resistances_Thermal resistance"
+msgstr "热能抗性"
+
+msgid "StatsViews_resistances_Kinetic resistance"
+msgstr "动能抗性"
+
+msgid "StatsViews_resistances_Explosive resistance"
+msgstr "爆炸抗性"
+
+msgid "StatsViews_resistances_Shield resistance"
+msgstr "护盾抗性"
+
+msgid "StatsViews_resistances_Armor resistance"
+msgstr "装甲抗性"
+
+msgid "StatsViews_resistances_Hull resistance"
+msgstr "结构抗性"
+
+msgid "StatsViews_resistances_Incoming damage pattern"
+msgstr "受到的伤害模式"
+
+msgid "StatsViews_resistances_Click to toggle between effective HP and raw HP"
+msgstr "点击切换有效 HP 和基础 HP"
+
+msgid "StatsViews_resistances_( Effective HP: "
+msgstr "( 有效 HP: "
+
+msgid "StatsViews_resistances_( Raw HP: "
+msgstr "( 基础 HP: "
+
+msgid "StatsViews_resistances_shield"
+msgstr "盾量"
+
+msgid "StatsViews_resistances_armor"
+msgstr "甲量"
+
+msgid "StatsViews_resistances_hull"
+msgstr "结构量"
+
+msgid "StatsViews_resistances_Resist Multiplier"
+msgstr "抗性收益"
+
+msgid "StatsViews_resistances_Effective"
+msgstr "有效"
+
+msgid "StatsViews_resistances_Raw"
+msgstr "基础"
+
+# builtinStatsViews/resourcesViewFull.py
+
+msgid "StatsViews_resources_title"
+msgstr "资源"
+
+msgid "StatsViews_resources_Turret hardpoints"
+msgstr "炮台挂载点"
+
+msgid "StatsViews_resources_Launcher hardpoints"
+msgstr "导弹发射口"
+
+msgid "StatsViews_resources_Drones active"
+msgstr "无人机控制单元"
+
+msgid "StatsViews_resources_Fighter squadrons active"
+msgstr "舰载机中队控制单元"
+
+msgid "StatsViews_resources_Calibration"
+msgstr "校准值"
+
+msgid "StatsViews_resources_CPU"
+msgstr "CPU"
+
+msgid "StatsViews_resources_PowerGrid"
+msgstr "能量栅格"
+
+msgid "StatsViews_resources_Drone bay"
+msgstr "无人机挂舱"
+
+msgid "StatsViews_resources_Fighter bay"
+msgstr "舰载机挂舱"
+
+msgid "StatsViews_resources_Drone bandwidth"
+msgstr "无人机网络带宽"
+
+msgid "StatsViews_resources_Cargo bay"
+msgstr "货仓"
 
 # builtinStatsViews/targetingMiscViewFull.py
 

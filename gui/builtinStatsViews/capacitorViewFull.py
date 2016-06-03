@@ -139,7 +139,7 @@ class CapacitorViewFull(StatsView):
                 else:
                     t = "%ds" % capState
 
-            s = "Stable: " if capStable else _("StatsViews_capacitor_lasts")
+            s = _("StatsViews_capacitor_Stable: ") if capStable else _("StatsViews_capacitor_lasts")
 
         getattr(self, lblNameTime % panel).SetLabel(t)
         getattr(self, lblNameState % panel).SetLabel(s)

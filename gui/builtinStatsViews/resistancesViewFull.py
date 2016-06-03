@@ -42,7 +42,7 @@ class ResistancesViewFull(StatsView):
         self.mainFrame.Bind(EFFECTIVE_HP_TOGGLED, self.ehpSwitch)
 
     def getHeaderText(self, fit):
-        return "Resistances"
+        return _("StatsViews_resistances_title")
 
     def getTextExtentW(self, text):
         width, height = self.parent.GetTextExtent( text )
@@ -57,7 +57,7 @@ class ResistancesViewFull(StatsView):
         headerContentSizer = wx.BoxSizer(wx.HORIZONTAL)
         hsizer = headerPanel.GetSizer()
         hsizer.Add(headerContentSizer,0,0,0)
-        self.stEff = wx.StaticText(headerPanel, wx.ID_ANY, "( Effective HP: ")
+        self.stEff = wx.StaticText(headerPanel, wx.ID_ANY, _("StatsViews_resistances_( Effective HP: "))
         headerContentSizer.Add(self.stEff)
         headerPanel.GetParent().AddToggleItem(self.stEff)
 
@@ -80,7 +80,8 @@ class ResistancesViewFull(StatsView):
         # Add an empty label, then the rest.
         sizerResistances.Add(wx.StaticText(contentPanel, wx.ID_ANY), wx.GBPosition( row, col ), wx.GBSpan( 1, 1 ))
         col+=1
-        toolTipText = {"em" : "Electromagnetic resistance", "thermal" : "Thermal resistance", "kinetic" : "Kinetic resistance", "explosive" : "Explosive resistance"}
+        toolTipText = {"em" : _("StatsViews_resistances_Electromagnetic resistance"), "thermal" : _("StatsViews_resistances_Thermal resistance"),
+                        "kinetic" : _("StatsViews_resistances_Kinetic resistance"), "explosive" : _("StatsViews_resistances_Explosive resistance")}
         for damageType in ("em", "thermal", "kinetic", "explosive"):
             bitmap = BitmapLoader.getStaticBitmap("%s_big" % damageType, contentPanel, "gui")
             tooltip = wx.ToolTip(toolTipText[damageType])
@@ -88,7 +89,7 @@ class ResistancesViewFull(StatsView):
             sizerResistances.Add(bitmap, wx.GBPosition( row, col ), wx.GBSpan( 1, 1 ), wx.ALIGN_CENTER)
             col+=1
         self.stEHPs = wx.Button(contentPanel, style = wx.BU_EXACTFIT, label =  "EHP")
-        self.stEHPs.SetToolTip(wx.ToolTip("Click to toggle between effective HP and raw HP"))
+        self.stEHPs.SetToolTip(wx.ToolTip(_("StatsViews_resistances_Click to toggle between effective HP and raw HP")))
 
         self.stEHPs.Bind(wx.EVT_BUTTON, self.toggleEHP)
 
@@ -101,7 +102,8 @@ class ResistancesViewFull(StatsView):
 
         gaugeColours=( ((38,133,198),(52,86,98)), ((198,38,38),(83,65,67)), ((163,163,163),(74,90,93)), ((198,133,38),(81,83,67)) )
 
-        toolTipText = {"shield" : "Shield resistance", "armor" : "Armor resistance", "hull" : "Hull resistance", "damagePattern" : "Incoming damage pattern"}
+        toolTipText = {"shield" : _("StatsViews_resistances_Shield resistance"), "armor" : _("StatsViews_resistances_Armor resistance"),
+                        "hull" : _("StatsViews_resistances_Hull resistance"), "damagePattern" : _("StatsViews_resistances_Incoming damage pattern")}
         for tankType in ("shield", "armor", "hull", "separator", "damagePattern"):
             if tankType != "separator":
                 bitmap = BitmapLoader.getStaticBitmap("%s_big" % tankType, contentPanel, "gui")
@@ -198,18 +200,18 @@ class ResistancesViewFull(StatsView):
                 total += ehp[tankType]
                 rrFactor = fit.ehp[tankType] / fit.hp[tankType]
                 lbl.SetLabel(formatAmount(ehp[tankType], 3, 0, 9))
-                lbl.SetToolTip(wx.ToolTip("%s: %d\nResist Multiplier: x%.2f" % (tankType.capitalize(), ehp[tankType], rrFactor)))
+                lbl.SetToolTip(wx.ToolTip(("%s: %d\n" + _("StatsViews_resistances_Resist Multiplier") + ": x%.2f") % (_("StatsViews_resistances_" + tankType).capitalize(), ehp[tankType], rrFactor)))
             else:
                 lbl.SetLabel("0")
 
 
         self.labelEhp.SetLabel("%s" % formatAmount(total, 3, 0, 9))
         if self.showEffective:
-            self.stEff.SetLabel("( Effective HP: ")
-            self.labelEhp.SetToolTip(wx.ToolTip("Effective: %d HP" % total))
+            self.stEff.SetLabel(_("StatsViews_resistances_( Effective HP: "))
+            self.labelEhp.SetToolTip(wx.ToolTip((_("StatsViews_resistances_Effective") + ": %d HP") % total))
         else:
-            self.stEff.SetLabel("( Raw HP: ")
-            self.labelEhp.SetToolTip(wx.ToolTip("Raw: %d HP" % total))
+            self.stEff.SetLabel(_("StatsViews_resistances_( Raw HP: "))
+            self.labelEhp.SetToolTip(wx.ToolTip((_("StatsViews_resistances_Raw") + ": %d HP") % total))
 
 
         damagePattern = fit.damagePattern if fit is not None  and self.showEffective else None

@@ -76,7 +76,7 @@ class ResourcesViewFull(StatsView):
         self.headerPanel.Layout()
 
     def getHeaderText(self, fit):
-        return "Resources"
+        return _("StatsViews_resources_title")
 
     def getTextExtentW(self, text):
         width, height = self.parent.GetTextExtent( text )
@@ -103,7 +103,9 @@ class ResourcesViewFull(StatsView):
         base = sizerResources
         sizer.AddSpacer((0, 0), 1, wx.EXPAND, 5)
         #Turrets & launcher hardslots display
-        tooltipText = {"turret":"Turret hardpoints", "launcher":"Launcher hardpoints", "drones":"Drones active", "fighter": "Fighter squadrons active", "calibration":"Calibration"}
+        tooltipText = {"turret":_("StatsViews_resources_Turret hardpoints"), "launcher":_("StatsViews_resources_Launcher hardpoints"),
+                        "drones":_("StatsViews_resources_Drones active"), "fighter": _("StatsViews_resources_Fighter squadrons active"),
+                        "calibration":_("StatsViews_resources_Calibration")}
         for type in ("turret", "launcher", "drones", "fighter", "calibration"):
             box = wx.BoxSizer(wx.HORIZONTAL)
 
@@ -134,7 +136,9 @@ class ResourcesViewFull(StatsView):
 
 
         #PG, Cpu & drone stuff
-        tooltipText = {"cpu":"CPU", "pg":"PowerGrid", "droneBay":"Drone bay", "fighterBay": "Fighter bay", "droneBandwidth":"Drone bandwidth", "cargoBay":"Cargo bay"}
+        tooltipText = {"cpu":_("StatsViews_resources_CPU"), "pg":_("StatsViews_resources_PowerGrid"),
+                        "droneBay":_("StatsViews_resources_Drone bay"), "fighterBay": _("StatsViews_resources_Fighter bay"),
+                        "droneBandwidth":_("StatsViews_resources_Drone bandwidth"), "cargoBay":_("StatsViews_resources_Cargo bay")}
         for i, group in enumerate((("cpu", "pg"), ("cargoBay", "droneBay", "fighterBay", "droneBandwidth"))):
             main = wx.BoxSizer(wx.VERTICAL)
             base.Add(main, 1 , wx.ALIGN_CENTER)

@@ -165,6 +165,9 @@ msgstr "Total: "
 msgid "StatsViews_capacitor_lasts"
 msgstr "Lasts "
 
+msgid "StatsViews_capacitor_Stable: "
+msgstr "Stable: "
+
 # builtinStatsViews/firepowerViewFull.py
 
 msgid "StatsViews_firepower_title"
@@ -229,6 +232,100 @@ msgstr "Reinforced"
 
 msgid "StatsViews_recharge_Sustained"
 msgstr "Sustained"
+
+# builtinStatsViews/resistancesViewFull.py
+
+msgid "StatsViews_resistances_title"
+msgstr "Resistances"
+
+msgid "StatsViews_resistances_Electromagnetic resistance"
+msgstr "Electromagnetic resistance"
+
+msgid "StatsViews_resistances_Thermal resistance"
+msgstr "Thermal resistance"
+
+msgid "StatsViews_resistances_Kinetic resistance"
+msgstr "Kinetic resistance"
+
+msgid "StatsViews_resistances_Explosive resistance"
+msgstr "Explosive resistance"
+
+msgid "StatsViews_resistances_Shield resistance"
+msgstr "Shield resistance"
+
+msgid "StatsViews_resistances_Armor resistance"
+msgstr "Armor resistance"
+
+msgid "StatsViews_resistances_Hull resistance"
+msgstr "Hull resistance"
+
+msgid "StatsViews_resistances_Incoming damage pattern"
+msgstr "Incoming damage pattern"
+
+msgid "StatsViews_resistances_Click to toggle between effective HP and raw HP"
+msgstr "Click to toggle between effective HP and raw HP"
+
+msgid "StatsViews_resistances_( Effective HP: "
+msgstr "( Effective HP: "
+
+msgid "StatsViews_resistances_( Raw HP: "
+msgstr "( Raw HP: "
+
+msgid "StatsViews_resistances_shield"
+msgstr "shield"
+
+msgid "StatsViews_resistances_armor"
+msgstr "armor"
+
+msgid "StatsViews_resistances_hull"
+msgstr "hull"
+
+msgid "StatsViews_resistances_Resist Multiplier"
+msgstr "Resist Multiplier"
+
+msgid "StatsViews_resistances_Effective"
+msgstr "Effective"
+
+msgid "StatsViews_resistances_Raw"
+msgstr "Raw"
+
+# builtinStatsViews/resourcesViewFull.py
+
+msgid "StatsViews_resources_title"
+msgstr "Resources"
+
+msgid "StatsViews_resources_Turret hardpoints"
+msgstr "Turret hardpoints"
+
+msgid "StatsViews_resources_Launcher hardpoints"
+msgstr "Launcher hardpoints"
+
+msgid "StatsViews_resources_Drones active"
+msgstr "Drones active"
+
+msgid "StatsViews_resources_Fighter squadrons active"
+msgstr "Fighter squadrons active"
+
+msgid "StatsViews_resources_Calibration"
+msgstr "Calibration"
+
+msgid "StatsViews_resources_CPU"
+msgstr "CPU"
+
+msgid "StatsViews_resources_PowerGrid"
+msgstr "PowerGrid"
+
+msgid "StatsViews_resources_Drone bay"
+msgstr "Drone bay"
+
+msgid "StatsViews_resources_Fighter bay"
+msgstr "Fighter bay"
+
+msgid "StatsViews_resources_Drone bandwidth"
+msgstr "Drone bandwidth"
+
+msgid "StatsViews_resources_Cargo bay"
+msgstr "Cargo bay"
 
 # builtinStatsViews/targetingMiscViewFull.py
 
