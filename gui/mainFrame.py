@@ -151,11 +151,11 @@ class MainFrame(wx.Frame):
         shipBrowserImg = BitmapLoader.getImage("ship_small", "gui")
 
         self.marketBrowser = MarketBrowser(self.notebookBrowsers)
-        self.notebookBrowsers.AddPage(self.marketBrowser, "Market", tabImage = marketImg, showClose = False)
+        self.notebookBrowsers.AddPage(self.marketBrowser, _("mainFrame_Market"), tabImage = marketImg, showClose = False)
         self.marketBrowser.splitter.SetSashPosition(self.marketHeight)
 
         self.shipBrowser = ShipBrowser(self.notebookBrowsers)
-        self.notebookBrowsers.AddPage(self.shipBrowser, "Ships", tabImage = shipBrowserImg, showClose = False)
+        self.notebookBrowsers.AddPage(self.shipBrowser, _("mainFrame_Ships"), tabImage = shipBrowserImg, showClose = False)
 
         #=======================================================================
         # DISABLED FOR RC2 RELEASE

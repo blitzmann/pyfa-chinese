@@ -31,7 +31,7 @@ class Abilities(ViewColumn):
         ViewColumn.__init__(self, fittingView)
 
         self.mainFrame = gui.mainFrame.MainFrame.getInstance()
-        self.columnText = "Active Abilities"
+        self.columnText = _("abilities_Active Abilities")
         self.mask = wx.LIST_MASK_TEXT
 
     def getText(self, stuff):

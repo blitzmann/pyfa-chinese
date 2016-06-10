@@ -361,3 +361,75 @@ msgstr "Warp Speed"
 
 msgid "StatsViews_targetingMisc_Cargo"
 msgstr "Cargo"
+
+#additionsPane.py
+
+msgid "additionsPane_Additions"
+msgstr "Additions"
+
+msgid "additionsPane_Drones"
+msgstr "Drones"
+
+msgid "additionsPane_Fighters"
+msgstr "Fighters"
+
+msgid "additionsPane_Cargo"
+msgstr "Cargo"
+
+msgid "additionsPane_Implants"
+msgstr "Implants"
+
+msgid "additionsPane_Boosters"
+msgstr "Boosters"
+
+msgid "additionsPane_Projected"
+msgstr "Projected"
+
+msgid "additionsPane_Fleet"
+msgstr "Fleet"
+
+#projectedView.py
+
+msgid "projectedView_Drag an item or fit, or use right-click menu for system effects"
+msgstr "Drag an item or fit, or use right-click menu for system effects"
+
+#gangView.py
+
+msgid "gangView_Booster"
+msgstr "Booster"
+
+msgid "gangView_Fits"
+msgstr "Fits"
+
+msgid "gangView_Characters"
+msgstr "Characters"
+
+msgid "gangView_Fleet"
+msgstr "Fleet"
+
+msgid "gangView_Wing"
+msgstr "Wing"
+
+msgid "gangView_Squad"
+msgstr "Squad"
+
+msgid '''gangView_Set fit as booster to display in dropdown, or drag fitting from\nship browser to this window, or right click fit and select booster role.'''
+msgstr '''Set fit as booster to display in dropdown, or drag fitting from\nship browser to this window, or right click fit and select booster role.'''
+
+#mainFrame.py
+
+msgid "mainFrame_Market"
+msgstr "Market"
+
+msgid "mainFrame_Ships"
+msgstr "Ships"
+
+#builtinViewColumns/abilities.py
+
+msgid "abilities_Active Abilities"
+msgstr "Active Abilities"
+
+#builtinViewColumns/baseName.py
+
+msgid "baseName_Name"
+msgstr "Name"

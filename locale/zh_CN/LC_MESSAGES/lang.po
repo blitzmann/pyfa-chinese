@@ -361,3 +361,75 @@ msgstr "跃迁速度"
 
 msgid "StatsViews_targetingMisc_Cargo"
 msgstr "货仓容量"
+
+#additionsPane.py
+
+msgid "additionsPane_Additions"
+msgstr "扩展"
+
+msgid "additionsPane_Drones"
+msgstr "无人机"
+
+msgid "additionsPane_Fighters"
+msgstr "舰载机"
+
+msgid "additionsPane_Cargo"
+msgstr "货仓"
+
+msgid "additionsPane_Implants"
+msgstr "植入体"
+
+msgid "additionsPane_Boosters"
+msgstr "增效剂"
+
+msgid "additionsPane_Projected"
+msgstr "加成方案"
+
+msgid "additionsPane_Fleet"
+msgstr "舰队"
+
+#projectedView.py
+
+msgid "projectedView_Drag an item or fit, or use right-click menu for system effects"
+msgstr " 拖入装备或装配，或者使用右键菜单添加一个扩展状态（如虫洞中的天象）"
+
+#gangView.py
+
+msgid "gangView_Booster"
+msgstr "加成位置"
+
+msgid "gangView_Fits"
+msgstr "配置"
+
+msgid "gangView_Characters"
+msgstr "角色"
+
+msgid "gangView_Fleet"
+msgstr "舰队"
+
+msgid "gangView_Wing"
+msgstr "联队"
+
+msgid "gangView_Squad"
+msgstr "中队"
+
+msgid '''gangView_Set fit as booster to display in dropdown, or drag fitting from\nship browser to this window, or right click fit and select booster role.'''
+msgstr '''通过下拉菜单选择加成官，或拖动装配方案到此窗口并选择加成位置。'''
+
+#mainFrame.py
+
+msgid "mainFrame_Market"
+msgstr "市场"
+
+msgid "mainFrame_Ships"
+msgstr "舰船"
+
+#builtinViewColumns/abilities.py
+
+msgid "abilities_Active Abilities"
+msgstr "特殊能力"
+
+#builtinViewColumns/baseName.py
+
+msgid "baseName_Name"
+msgstr "名称"

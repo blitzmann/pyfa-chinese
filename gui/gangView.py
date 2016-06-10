@@ -38,7 +38,7 @@ class GangView ( ScrolledPanel ):
 
         self.draggedFitID = None
 
-        help = '''Set fit as booster to display in dropdown, or drag fitting from\nship browser to this window, or right click fit and select booster role.'''
+        help = _('''gangView_Set fit as booster to display in dropdown, or drag fitting from\nship browser to this window, or right click fit and select booster role.''')
         helpSizer = wx.BoxSizer( wx.HORIZONTAL )
         self.helpText = wx.StaticText( self, wx.ID_ANY, help, wx.DefaultPosition, wx.DefaultSize, wx.ALIGN_CENTRE )
         helpSizer.Add( self.helpText, 1, wx.ALL, 5 )
@@ -50,7 +50,7 @@ class GangView ( ScrolledPanel ):
 
             # set content for each commander
             self.fleet[id] = {}
-            self.fleet[id]['stLabel']  = wx.StaticText( self, wx.ID_ANY, self.options[id]+':', wx.DefaultPosition, wx.DefaultSize, 0 )
+            self.fleet[id]['stLabel']  = wx.StaticText( self, wx.ID_ANY, _("gangView_" + self.options[id])+':', wx.DefaultPosition, wx.DefaultSize, 0 )
             self.fleet[id]['stText']   = wx.StaticText( self, wx.ID_ANY, 'None', wx.DefaultPosition, wx.DefaultSize, 0 )
             self.fleet[id]['chFit']    = wx.Choice( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, [] )
             self.fleet[id]['chChar']   = wx.Choice( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, [] )
@@ -64,17 +64,17 @@ class GangView ( ScrolledPanel ):
         contentFGSizer.SetNonFlexibleGrowMode( wx.FLEX_GROWMODE_SPECIFIED )
 
         ### Header
-        self.stBooster = wx.StaticText( self, wx.ID_ANY, u"Booster", wx.DefaultPosition, wx.DefaultSize, 0 )
+        self.stBooster = wx.StaticText( self, wx.ID_ANY, _("gangView_Booster"), wx.DefaultPosition, wx.DefaultSize, 0 )
         self.stBooster.Wrap( -1 )
         self.stBooster.SetFont( wx.Font( wx.NORMAL_FONT.GetPointSize(), 70, 90, 92, False, wx.EmptyString ) )
         contentFGSizer.Add( self.stBooster, 0, wx.ALIGN_CENTER_HORIZONTAL|wx.ALIGN_CENTER_VERTICAL, 5 )
 
-        self.stFits = wx.StaticText( self, wx.ID_ANY, u"Fits", wx.DefaultPosition, wx.DefaultSize, 0 )
+        self.stFits = wx.StaticText( self, wx.ID_ANY, _("gangView_Fits"), wx.DefaultPosition, wx.DefaultSize, 0 )
         self.stFits.Wrap( -1 )
         self.stFits.SetFont( wx.Font( wx.NORMAL_FONT.GetPointSize(), 70, 90, 92, False, wx.EmptyString ) )
         contentFGSizer.Add( self.stFits, 0, wx.ALIGN_CENTER_VERTICAL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
 
-        self.stCharacters = wx.StaticText( self, wx.ID_ANY, u"Characters", wx.DefaultPosition, wx.DefaultSize, 0 )
+        self.stCharacters = wx.StaticText( self, wx.ID_ANY, _("gangView_Characters"), wx.DefaultPosition, wx.DefaultSize, 0 )
         self.stCharacters.Wrap( -1 )
         self.stCharacters.SetFont( wx.Font( wx.NORMAL_FONT.GetPointSize(), 70, 90, 92, False, wx.EmptyString ) )
         contentFGSizer.Add( self.stCharacters, 0, wx.ALIGN_CENTER_VERTICAL|wx.ALIGN_CENTER_HORIZONTAL, 5 )

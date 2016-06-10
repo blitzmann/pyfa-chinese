@@ -37,7 +37,7 @@ class AdditionsPane(TogglePanel):
 
         TogglePanel.__init__(self, parent, forceLayout = 1)
 
-        self.SetLabel("Additions")
+        self.SetLabel(_("additionsPane_Additions"))
         pane = self.GetContentPane()
 
         baseSizer = wx.BoxSizer(wx.HORIZONTAL)
@@ -58,22 +58,22 @@ class AdditionsPane(TogglePanel):
         gangImg = BitmapLoader.getImage("fleet_fc_small", "gui")
         cargoImg = BitmapLoader.getImage("cargo_small", "gui")
 
-        self.notebook.AddPage(DroneView(self.notebook), "Drones", tabImage = droneImg, showClose = False)
-        self.notebook.AddPage(FighterView(self.notebook), "Fighters", tabImage = fighterImg, showClose = False)
-        self.notebook.AddPage(CargoView(self.notebook), "Cargo", tabImage = cargoImg, showClose = False)
-        self.notebook.AddPage(ImplantView(self.notebook), "Implants", tabImage = implantImg, showClose = False)
-        self.notebook.AddPage(BoosterView(self.notebook), "Boosters", tabImage = boosterImg, showClose = False)
+        self.notebook.AddPage(DroneView(self.notebook), _("additionsPane_Drones"), tabImage = droneImg, showClose = False)
+        self.notebook.AddPage(FighterView(self.notebook), _("additionsPane_Fighters"), tabImage = fighterImg, showClose = False)
+        self.notebook.AddPage(CargoView(self.notebook), _("additionsPane_Cargo"), tabImage = cargoImg, showClose = False)
+        self.notebook.AddPage(ImplantView(self.notebook), _("additionsPane_Implants"), tabImage = implantImg, showClose = False)
+        self.notebook.AddPage(BoosterView(self.notebook), _("additionsPane_Boosters"), tabImage = boosterImg, showClose = False)
 
         self.projectedPage = ProjectedView(self.notebook)
-        self.notebook.AddPage(self.projectedPage, "Projected", tabImage = projectedImg, showClose = False)
+        self.notebook.AddPage(self.projectedPage, _("additionsPane_Projected"), tabImage = projectedImg, showClose = False)
 
         self.gangPage = GangView(self.notebook)
-        self.notebook.AddPage(self.gangPage, "Fleet", tabImage = gangImg, showClose = False)
+        self.notebook.AddPage(self.gangPage, _("additionsPane_Fleet"), tabImage = gangImg, showClose = False)
         self.notebook.SetSelection(0)
 
-    PANES = ["Drones", "Fighters", "Cargo", "Implants", "Boosters", "Projected", "Fleet"]
+    PANES = [_("additionsPane_Drones"), _("additionsPane_Fighters"), _("additionsPane_Cargo"), _("additionsPane_Implants"), _("additionsPane_Boosters"), _("additionsPane_Projected"), _("additionsPane_Fleet")]
     def select(self, name):
-        self.notebook.SetSelection(self.PANES.index(name))
+        self.notebook.SetSelection(_("additionsPane_" + self.PANES.index(name)))
 
     def getName(self, idx):
         return self.PANES[idx]
