@@ -43,14 +43,14 @@ class GangView ( ScrolledPanel ):
         self.helpText = wx.StaticText( self, wx.ID_ANY, help, wx.DefaultPosition, wx.DefaultSize, wx.ALIGN_CENTRE )
         helpSizer.Add( self.helpText, 1, wx.ALL, 5 )
 
-        self.options = ["Fleet", "Wing", "Squad"]
+        self.options = [_("gangView_Fleet"), _("gangView_Wing"), _("gangView_Squad")]
 
         self.fleet = {}
         for id, option in enumerate(self.options):
 
             # set content for each commander
             self.fleet[id] = {}
-            self.fleet[id]['stLabel']  = wx.StaticText( self, wx.ID_ANY, _("gangView_" + self.options[id])+':', wx.DefaultPosition, wx.DefaultSize, 0 )
+            self.fleet[id]['stLabel']  = wx.StaticText( self, wx.ID_ANY, self.options[id]+':', wx.DefaultPosition, wx.DefaultSize, 0 )
             self.fleet[id]['stText']   = wx.StaticText( self, wx.ID_ANY, 'None', wx.DefaultPosition, wx.DefaultSize, 0 )
             self.fleet[id]['chFit']    = wx.Choice( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, [] )
             self.fleet[id]['chChar']   = wx.Choice( self, wx.ID_ANY, wx.DefaultPosition, wx.DefaultSize, [] )
@@ -99,7 +99,7 @@ class GangView ( ScrolledPanel ):
             self.fleet[id]['stText'].Bind(wx.EVT_LEFT_DCLICK, self.RemoveBooster)
             self.fleet[id]['stText'].Bind(wx.EVT_ENTER_WINDOW, self.OnEnterWindow)
             self.fleet[id]['stText'].Bind(wx.EVT_LEAVE_WINDOW, self.OnLeaveWindow)
-            self.fleet[id]['stText'].SetToolTip(wx.ToolTip("Double click to remove booster"))
+            self.fleet[id]['stText'].SetToolTip(wx.ToolTip(_("gangView_Double click to remove booster")))
             self.fleet[id]['chChar'].Bind(wx.EVT_CHOICE, self.CharChanged)
             self.fleet[id]['chFit'].Bind(wx.EVT_CHOICE, self.OnFitChoiceSelected)
 

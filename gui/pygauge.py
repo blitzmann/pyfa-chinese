@@ -395,10 +395,10 @@ class PyGauge(wx.PyWindow):
                 range = self._range if self._range > 0.01 else 0
                 value = range - self._value
                 if value < 0:
-                    label = "over"
+                    label = _("pygauge_over")
                     value = -value
                 else:
-                    label = "left"
+                    label = _("pygauge_left")
                 formatStr = "{0:." + str(self._fractionDigits) + "f} " + label
 
             else:

@@ -345,11 +345,11 @@ class NavigationPanel(SFItem.SFBrowserItem):
         self.switchBmp = self.AdjustChannels(self.switchBmpH)
         self.newBmp = self.AdjustChannels(self.newBmpH)
 
-        self.toolbar.AddButton(self.resetBmp, "Ship groups", clickCallback = self.OnHistoryReset, hoverBitmap = self.resetBmpH)
-        self.toolbar.AddButton(self.rewBmp, "Back", clickCallback = self.OnHistoryBack, hoverBitmap = self.rewBmpH)
-        self.btnNew = self.toolbar.AddButton(self.newBmp, "New fitting", clickCallback = self.OnNewFitting, hoverBitmap = self.newBmpH, show = False)
-        self.btnSwitch = self.toolbar.AddButton(self.switchBmpD, "Hide empty ship groups", clickCallback  = self.ToggleEmptyGroupsView, hoverBitmap = self.switchBmpH, show = False)
-        self.toolbar.AddButton(self.searchBmp, "Search fittings", clickCallback = self.ToggleSearchBox, hoverBitmap = self.searchBmpH)
+        self.toolbar.AddButton(self.resetBmp, _("shipBrowser_Ship groups"), clickCallback = self.OnHistoryReset, hoverBitmap = self.resetBmpH)
+        self.toolbar.AddButton(self.rewBmp, _("shipBrowser_Back"), clickCallback = self.OnHistoryBack, hoverBitmap = self.rewBmpH)
+        self.btnNew = self.toolbar.AddButton(self.newBmp, _("shipBrowser_New fitting"), clickCallback = self.OnNewFitting, hoverBitmap = self.newBmpH, show = False)
+        self.btnSwitch = self.toolbar.AddButton(self.switchBmpD, _("shipBrowser_Hide empty ship groups"), clickCallback  = self.ToggleEmptyGroupsView, hoverBitmap = self.switchBmpH, show = False)
+        self.toolbar.AddButton(self.searchBmp, _("shipBrowser_Search fittings"), clickCallback = self.ToggleSearchBox, hoverBitmap = self.searchBmpH)
 
         self.padding = 4
         self.lastSearch = ""

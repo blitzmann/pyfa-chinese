@@ -416,6 +416,9 @@ msgstr "中隊"
 msgid '''gangView_Set fit as booster to display in dropdown, or drag fitting from\nship browser to this window, or right click fit and select booster role.'''
 msgstr '''通過下拉式功能表選擇加成官，或拖動裝配方案到此視窗並選擇加成位置。'''
 
+msgid "gangView_Double click to remove booster"
+msgstr "雙擊以移除加成官"
+
 #mainFrame.py
 
 msgid "mainFrame_Market"
@@ -433,3 +436,28 @@ msgstr "特殊能力"
 
 msgid "baseName_Name"
 msgstr "名稱"
+
+#shipBrowser.py
+
+msgid "shipBrowser_Ship groups"
+msgstr "艦船分類"
+
+msgid "shipBrowser_Back"
+msgstr "返回"
+
+msgid "shipBrowser_New fitting"
+msgstr "新建裝配方案"
+
+msgid "shipBrowser_Hide empty ship groups"
+msgstr "隱藏沒有裝配方案的分類"
+
+msgid "shipBrowser_Search fittings"
+msgstr "搜索裝配方案"
+
+#pygauge.py
+
+msgid "pygauge_over"
+msgstr "超出"
+
+msgid "pygauge_left"
+msgstr "剩餘"

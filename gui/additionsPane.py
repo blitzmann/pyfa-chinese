@@ -73,7 +73,7 @@ class AdditionsPane(TogglePanel):
 
     PANES = [_("additionsPane_Drones"), _("additionsPane_Fighters"), _("additionsPane_Cargo"), _("additionsPane_Implants"), _("additionsPane_Boosters"), _("additionsPane_Projected"), _("additionsPane_Fleet")]
     def select(self, name):
-        self.notebook.SetSelection(_("additionsPane_" + self.PANES.index(name)))
+        self.notebook.SetSelection(self.PANES.index(_("gangView_" + name)))
 
     def getName(self, idx):
         return self.PANES[idx]

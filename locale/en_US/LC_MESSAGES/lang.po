@@ -416,6 +416,9 @@ msgstr "Squad"
 msgid '''gangView_Set fit as booster to display in dropdown, or drag fitting from\nship browser to this window, or right click fit and select booster role.'''
 msgstr '''Set fit as booster to display in dropdown, or drag fitting from\nship browser to this window, or right click fit and select booster role.'''
 
+msgid "gangView_Double click to remove booster"
+msgstr "Double click to remove booster"
+
 #mainFrame.py
 
 msgid "mainFrame_Market"
@@ -433,3 +436,28 @@ msgstr "Active Abilities"
 
 msgid "baseName_Name"
 msgstr "Name"
+
+#shipBrowser.py
+
+msgid "shipBrowser_Ship groups"
+msgstr "Ship groups"
+
+msgid "shipBrowser_Back"
+msgstr "Back"
+
+msgid "shipBrowser_New fitting"
+msgstr "New fitting"
+
+msgid "shipBrowser_Hide empty ship groups"
+msgstr "Hide empty ship groups"
+
+msgid "shipBrowser_Search fittings"
+msgstr "Search fittings"
+
+#pygauge.py
+
+msgid "pygauge_over"
+msgstr "over"
+
+msgid "pygauge_left"
+msgstr "left"
