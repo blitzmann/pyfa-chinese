@@ -59,62 +59,62 @@ class MainMenuBar(wx.MenuBar):
 
         # File menu
         fileMenu = wx.Menu()
-        self.Append(fileMenu, _("mainMenuBar_&File"))
+        self.Append(fileMenu, "&File")
 
-        fileMenu.Append(self.mainFrame.addPageId, _("mainMenuBar_&New Tab\tCTRL+T"), _("mainMenuBar_Open a new fitting tab"))
-        fileMenu.Append(self.mainFrame.closePageId, _("mainMenuBar_&Close Tab\tCTRL+W"), _("mainMenuBar_Close the current fit"))
+        fileMenu.Append(self.mainFrame.addPageId, "&New Tab\tCTRL+T", "Open a new fitting tab")
+        fileMenu.Append(self.mainFrame.closePageId, "&Close Tab\tCTRL+W", "Close the current fit")
         fileMenu.AppendSeparator()
 
-        fileMenu.Append(self.backupFitsId, _("mainMenuBar_&Backup All Fittings"), _("mainMenuBar_Backup all fittings to a XML file"))
-        fileMenu.Append(wx.ID_OPEN, _("mainMenuBar_&Import Fittings\tCTRL+O"), _("mainMenuBar_Import fittings into pyfa"))
-        fileMenu.Append(wx.ID_SAVEAS, _("mainMenuBar_&Export Fitting\tCTRL+S"), _("mainMenuBar_Export fitting to another format"))
+        fileMenu.Append(self.backupFitsId, "&Backup All Fittings", "Backup all fittings to a XML file")
+        fileMenu.Append(wx.ID_OPEN, "&Import Fittings\tCTRL+O", "Import fittings into pyfa")
+        fileMenu.Append(wx.ID_SAVEAS, "&Export Fitting\tCTRL+S", "Export fitting to another format")
         fileMenu.AppendSeparator()
-        fileMenu.Append(self.exportHtmlId, _("mainMenuBar_Export HTML"), _("mainMenuBar_Export fits to HTML file (set in Preferences)"))
-        fileMenu.Append(self.exportSkillsNeededId, _("mainMenuBar_Export &Skills Needed"), _("mainMenuBar_Export skills needed for this fitting"))
-        fileMenu.Append(self.importCharacterId, _("mainMenuBar_Import &Character File"), _("mainMenuBar_Import characters into pyfa from file"))
+        fileMenu.Append(self.exportHtmlId, "Export HTML", "Export fits to HTML file (set in Preferences)")
+        fileMenu.Append(self.exportSkillsNeededId, "Export &Skills Needed", "Export skills needed for this fitting")
+        fileMenu.Append(self.importCharacterId, "Import C&haracter File", "Import characters into pyfa from file")
         fileMenu.AppendSeparator()
         fileMenu.Append(wx.ID_EXIT)
 
         # Edit menu
         editMenu = wx.Menu()
-        self.Append(editMenu, _("mainMenuBar_&Edit"))
+        self.Append(editMenu, "&Edit")
 
         #editMenu.Append(wx.ID_UNDO)
         #editMenu.Append(wx.ID_REDO)
 
-        editMenu.Append(wx.ID_COPY, _("mainMenuBar_To Clipboard\tCTRL+C"), _("mainMenuBar_Export a fit to the clipboard"))
-        editMenu.Append(wx.ID_PASTE, _("mainMenuBar_From Clipboard\tCTRL+V"), _("mainMenuBar_Import a fit from the clipboard"))
+        editMenu.Append(wx.ID_COPY, "To Clipboard\tCTRL+C", "Export a fit to the clipboard")
+        editMenu.Append(wx.ID_PASTE, "From Clipboard\tCTRL+V", "Import a fit from the clipboard")
         editMenu.AppendSeparator()
-        editMenu.Append(self.saveCharId, _("mainMenuBar_Save Character"))
-        editMenu.Append(self.saveCharAsId, _("mainMenuBar_Save Character As..."))
-        editMenu.Append(self.revertCharId, _("mainMenuBar_Revert Character"))
+        editMenu.Append(self.saveCharId, "Save Character")
+        editMenu.Append(self.saveCharAsId, "Save Character As...")
+        editMenu.Append(self.revertCharId, "Revert Character")
 
         # Character menu
         windowMenu = wx.Menu()
-        self.Append(windowMenu, _("mainMenuBar_&Window"))
+        self.Append(windowMenu, "&Window")
 
-        charEditItem = wx.MenuItem(windowMenu, self.characterEditorId, _("mainMenuBar_&Character Editor\tCTRL+E"))
+        charEditItem = wx.MenuItem(windowMenu, self.characterEditorId, "&Character Editor\tCTRL+E")
         charEditItem.SetBitmap(BitmapLoader.getBitmap("character_small", "gui"))
         windowMenu.AppendItem(charEditItem)
 
-        damagePatternEditItem = wx.MenuItem(windowMenu, self.damagePatternEditorId, _("mainMenuBar_Damage Pattern Editor\tCTRL+D"))
+        damagePatternEditItem = wx.MenuItem(windowMenu, self.damagePatternEditorId, "Damage Pattern Editor\tCTRL+D")
         damagePatternEditItem.SetBitmap(BitmapLoader.getBitmap("damagePattern_small", "gui"))
         windowMenu.AppendItem(damagePatternEditItem)
 
-        targetResistsEditItem = wx.MenuItem(windowMenu, self.targetResistsEditorId, _("mainMenuBar_Target Resists Editor\tCTRL+R"))
+        targetResistsEditItem = wx.MenuItem(windowMenu, self.targetResistsEditorId, "Target Resists Editor\tCTRL+R")
         targetResistsEditItem.SetBitmap(BitmapLoader.getBitmap("explosive_small", "gui"))
         windowMenu.AppendItem(targetResistsEditItem)
 
-        implantSetEditItem = wx.MenuItem(windowMenu, self.implantSetEditorId, _("mainMenuBar_Implant Set Editor\tCTRL+I"))
+        implantSetEditItem = wx.MenuItem(windowMenu, self.implantSetEditorId, "Implant Set Editor\tCTRL+I")
         implantSetEditItem.SetBitmap(BitmapLoader.getBitmap("hardwire_small", "gui"))
         windowMenu.AppendItem(implantSetEditItem)
 
-        graphFrameItem = wx.MenuItem(windowMenu, self.graphFrameId, _("mainMenuBar_Graphs\tCTRL+G"))
+        graphFrameItem = wx.MenuItem(windowMenu, self.graphFrameId, "Graphs\tCTRL+G")
         graphFrameItem.SetBitmap(BitmapLoader.getBitmap("graphs_small", "gui"))
         windowMenu.AppendItem(graphFrameItem)
 
         preferencesShortCut = "CTRL+," if 'wxMac' in wx.PlatformInfo else "CTRL+P"
-        preferencesItem = wx.MenuItem(windowMenu, wx.ID_PREFERENCES, _("mainMenuBar_Preferences\t")+preferencesShortCut)
+        preferencesItem = wx.MenuItem(windowMenu, wx.ID_PREFERENCES, "Preferences\t"+preferencesShortCut)
         preferencesItem.SetBitmap(BitmapLoader.getBitmap("preferences_small", "gui"))
         windowMenu.AppendItem(preferencesItem)
 
@@ -123,36 +123,35 @@ class MainMenuBar(wx.MenuBar):
 
             # CREST Menu
             crestMenu = wx.Menu()
-            self.Append(crestMenu, _("mainMenuBar_&CREST"))
+            self.Append(crestMenu, "&CREST")
             if self.sCrest.settings.get('mode') != CrestModes.IMPLICIT:
-                crestMenu.Append(self.ssoLoginId, _("mainMenuBar_Manage Characters"))
+                crestMenu.Append(self.ssoLoginId, "Manage Characters")
             else:
-                crestMenu.Append(self.ssoLoginId, _("mainMenuBar_Login to EVE"))
-            crestMenu.Append(self.eveFittingsId, _("mainMenuBar_Browse EVE Fittings"))
-            crestMenu.Append(self.exportToEveId, _("mainMenuBar_Export To EVE"))
+                crestMenu.Append(self.ssoLoginId, "Login to EVE")
+            crestMenu.Append(self.eveFittingsId, "Browse EVE Fittings")
+            crestMenu.Append(self.exportToEveId, "Export To EVE")
 
             if self.sCrest.settings.get('mode') == CrestModes.IMPLICIT or len(self.sCrest.getCrestCharacters()) == 0:
                 self.Enable(self.eveFittingsId, False)
                 self.Enable(self.exportToEveId, False)
 
             if not gui.mainFrame.disableOverrideEditor:
-                attrItem = wx.MenuItem(windowMenu, self.attrEditorId, _("mainMenuBar_Attribute Overrides\tCTRL+B"))
+                windowMenu.AppendSeparator()
+                attrItem = wx.MenuItem(windowMenu, self.attrEditorId, "Attribute Overrides\tCTRL+B")
                 attrItem.SetBitmap(BitmapLoader.getBitmap("fit_rename_small", "gui"))
                 windowMenu.AppendItem(attrItem)
-
-                editMenu.AppendSeparator()
-                editMenu.Append(self.toggleOverridesId, _("mainMenuBar_Turn Overrides On"))
+                windowMenu.Append(self.toggleOverridesId, "Turn Overrides On")
 
         # Help menu
         helpMenu = wx.Menu()
-        self.Append(helpMenu, _("mainMenuBar_&Help"))
-        helpMenu.Append(self.wikiId, _("mainMenuBar_Wiki"), _("mainMenuBar_Go to wiki on GitHub"))
-        helpMenu.Append(self.forumId, _("mainMenuBar_Forums"), _("mainMenuBar_Go to EVE Online Forum thread"))
+        self.Append(helpMenu, "&Help")
+        helpMenu.Append(self.wikiId, "Wiki", "Go to wiki on GitHub")
+        helpMenu.Append(self.forumId, "Forums", "Go to EVE Online Forum thread")
         helpMenu.AppendSeparator()
         helpMenu.Append(wx.ID_ABOUT)
 
         if config.debug:
-            helpMenu.Append( self.mainFrame.widgetInspectMenuID, _("mainMenuBar_Open Widgets Inspect tool"), _("mainMenuBar_Open Widgets Inspect tool"))
+            helpMenu.Append( self.mainFrame.widgetInspectMenuID, "Open Widgets Inspect tool", "Open Widgets Inspect tool")
 
         self.mainFrame.Bind(GE.FIT_CHANGED, self.fitChanged)
 
