@@ -61,8 +61,8 @@ msgstr "Export &Skills Needed"
 msgid "mainMenuBar_Export skills needed for this fitting"
 msgstr "Export skills needed for this fitting"
 
-msgid "mainMenuBar_Import C&haracter File"
-msgstr "Import C&haracter File"
+msgid "mainMenuBar_Import &Character File"
+msgstr "Import &Character File"
 
 msgid "mainMenuBar_Import characters into pyfa from file"
 msgstr "Import characters into pyfa from file"
