@@ -1055,7 +1055,7 @@ class CategoryItem(SFItem.SFBrowserItem):
 
         categoryName, fittings = self.fittingInfo
 
-        mdc.DrawText(categoryName, self.catx, self.caty)
+        mdc.DrawText(_(categoryName), self.catx, self.caty)
 
 #===============================================================================
 #        Waiting for total #fits impl in eos/service
@@ -1321,7 +1321,7 @@ class ShipItem(SFItem.SFBrowserItem):
 
         mdc.SetFont(self.fontBig)
 
-        psname = drawUtils.GetPartialText(mdc, shipName, self.toolbarx - self.textStartx - self.padding * 2 - self.thoverw)
+        psname = drawUtils.GetPartialText(mdc, _(shipName), self.toolbarx - self.textStartx - self.padding * 2 - self.thoverw)
 
         mdc.DrawText(psname, self.textStartx, self.shipNamey)
 
