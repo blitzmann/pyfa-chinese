@@ -589,3 +589,17 @@ msgstr "戰術驅逐艦"
 
 msgid "Titan"
 msgstr "泰坦"
+
+#equipment-typeA
+
+msgid "normal"
+msgstr "普通"
+
+msgid "faction"
+msgstr "勢力"
+
+msgid "complex"
+msgstr "死亡"
+
+msgid "officer"
+msgstr "官員"

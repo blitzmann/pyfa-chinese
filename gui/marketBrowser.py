@@ -62,7 +62,7 @@ class MarketBrowser(wx.Panel):
         vbox.Add(p, 0, wx.EXPAND)
         self.metaButtons = []
         for name in self.sMkt.META_MAP.keys():
-            btn = wx.ToggleButton(p, wx.ID_ANY, name.capitalize(), style=wx.BU_EXACTFIT)
+            btn = wx.ToggleButton(p, wx.ID_ANY, _(name).capitalize(), style=wx.BU_EXACTFIT)
             setattr(self, name, btn)
             box.Add(btn, 1, wx.ALIGN_CENTER)
             btn.Bind(wx.EVT_TOGGLEBUTTON, self.toggleMetaButton)
@@ -127,15 +127,15 @@ class MarketTree(wx.TreeCtrl):
         sMkt = self.sMkt
         for mktGrp in sMkt.getMarketRoot():
             iconId = self.addImage(sMkt.getIconByMarketGroup(mktGrp))
-            childId = self.AppendItem(self.root, mktGrp.name, iconId, data=wx.TreeItemData(mktGrp.ID))
+            childId = self.AppendItem(self.root, _(mktGrp.name), iconId, data=wx.TreeItemData(mktGrp.ID))
             # All market groups which were never expanded are dummies, here we assume
             # that all root market groups are expandable
-            self.AppendItem(childId, "dummy")
+            self.AppendItem(childId, _("dummy"))
         self.SortChildren(self.root)
 
         # Add recently used modules node
         rumIconId = self.addImage("market_small", "gui")
-        self.AppendItem(self.root, "Recently Used Modules", rumIconId, data = wx.TreeItemData(RECENTLY_USED_MODULES))
+        self.AppendItem(self.root, _("Recently Used Modules"), rumIconId, data = wx.TreeItemData(RECENTLY_USED_MODULES))
 
         # Bind our lookup method to when the tree gets expanded
         self.Bind(wx.EVT_TREE_ITEM_EXPANDING, self.expandLookup)
@@ -162,11 +162,11 @@ class MarketTree(wx.TreeCtrl):
                     continue
                 iconId = self.addImage(sMkt.getIconByMarketGroup(childMktGrp))
                 try:
-                    childId = self.AppendItem(root, childMktGrp.name, iconId, data=wx.TreeItemData(childMktGrp.ID))
+                    childId = self.AppendItem(root, _(childMktGrp.name), iconId, data=wx.TreeItemData(childMktGrp.ID))
                 except:
                     continue
                 if sMkt.marketGroupHasTypesCheck(childMktGrp) is False:
-                    self.AppendItem(childId, "dummy")
+                    self.AppendItem(childId, _("dummy"))
 
             self.SortChildren(root)
 
