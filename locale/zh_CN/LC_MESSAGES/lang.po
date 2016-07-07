@@ -477,7 +477,7 @@ msgid "Black Ops"
 msgstr "黑隐特勤舰"
 
 msgid "Blockade Runner"
-msgstr ""
+msgstr "偷运舰"
 
 msgid "Capital Industrial Ship"
 msgstr "旗舰级工业舰"
@@ -497,14 +497,14 @@ msgstr "指挥驱逐舰"
 msgid "Command Ship"
 msgstr "指挥舰"
 
-msgid "Convert Ops"
+msgid "Covert Ops"
 msgstr "隐形特勤舰"
 
 msgid "Cruiser"
 msgstr "巡洋舰"
 
 msgid "Deep Space Transport"
-msgstr ""
+msgstr "深层空间运输舰"
 
 msgid "Destroyer"
 msgstr "驱逐舰"
@@ -525,67 +525,67 @@ msgid "Force Auxiliary"
 msgstr "战力辅助舰"
 
 msgid "Force Recon Ship"
-msgstr ""
+msgstr "力场侦察舰"
 
 msgid "Freighter"
-msgstr ""
+msgstr "货舰"
 
 msgid "Frigate"
-msgstr ""
+msgstr "护卫舰"
 
 msgid "Heavy Assault Cruiser"
-msgstr ""
+msgstr "重型突击舰"
 
 msgid "Heavy Interdiction Cruiser"
-msgstr ""
+msgstr "重型拦截舰"
 
 msgid "Industrial"
-msgstr ""
+msgstr "工业舰"
 
 msgid "Industrial Command Ship"
-msgstr ""
+msgstr "工业指挥舰"
 
 msgid "Interceptor"
-msgstr ""
+msgstr "截击舰"
 
 msgid "Interdictor"
-msgstr ""
+msgstr "轻型拦截舰"
 
 msgid "Jump Freighter"
-msgstr ""
+msgstr "战略货舰"
 
 msgid "Limited Issue Ships"
-msgstr ""
+msgstr "特别版舰船"
 
 msgid "Logistics"
-msgstr ""
+msgstr "后勤舰"
 
 msgid "Logistics Frigate"
-msgstr ""
+msgstr "后勤护卫舰"
 
 msgid "Marauder"
-msgstr ""
+msgstr "掠夺舰"
 
 msgid "Mining Barge"
-msgstr ""
+msgstr "采矿驳船"
 
 msgid "Rookie ship"
-msgstr ""
+msgstr "新手船"
 
 msgid "Shuttle"
-msgstr ""
+msgstr "穿梭机"
 
 msgid "Stealth Bomber"
-msgstr ""
+msgstr "隐形轰炸舰"
 
 msgid "Strategic Cruiser"
-msgstr ""
+msgstr "战略巡洋舰"
 
 msgid "Supercarrier"
-msgstr ""
+msgstr "超级航母"
 
 msgid "Tactical Destroyer"
-msgstr ""
+msgstr "战术驱逐舰"
 
 msgid "Titan"
-msgstr ""
+msgstr "泰坦"

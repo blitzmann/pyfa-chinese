@@ -461,3 +461,131 @@ msgstr "超出"
 
 msgid "pygauge_left"
 msgstr "剩餘"
+
+#ships
+
+msgid "Assault Frigate"
+msgstr "突擊護衛艦"
+
+msgid "Attack Battlecruiser"
+msgstr "攻擊戰列巡洋艦"
+
+msgid "Battleship"
+msgstr "戰列艦"
+
+msgid "Black Ops"
+msgstr "黑隱特勤艦"
+
+msgid "Blockade Runner"
+msgstr "偷運艦"
+
+msgid "Capital Industrial Ship"
+msgstr "旗艦級工業艦"
+
+msgid "Carrier"
+msgstr "航空母艦"
+
+msgid "Combat Battlecruiser"
+msgstr "戰鬥戰列巡洋艦"
+
+msgid "Combat Recon Ship"
+msgstr "戰鬥偵察艦"
+
+msgid "Command Destroyer"
+msgstr "指揮驅逐艦"
+
+msgid "Command Ship"
+msgstr "指揮艦"
+
+msgid "Covert Ops"
+msgstr "隱形特勤艦"
+
+msgid "Cruiser"
+msgstr "巡洋艦"
+
+msgid "Deep Space Transport"
+msgstr "深層空間運輸艦"
+
+msgid "Destroyer"
+msgstr "驅逐艦"
+
+msgid "Dreadnought"
+msgstr "無畏艦"
+
+msgid "Electronic Attack Ship"
+msgstr "電子攻擊護衛艦"
+
+msgid "Exhumer"
+msgstr "採掘者"
+
+msgid "Expedition Frigate"
+msgstr "勘探護衛艦"
+
+msgid "Force Auxiliary"
+msgstr "戰力輔助艦"
+
+msgid "Force Recon Ship"
+msgstr "力場偵察艦"
+
+msgid "Freighter"
+msgstr "貨艦"
+
+msgid "Frigate"
+msgstr "護衛艦"
+
+msgid "Heavy Assault Cruiser"
+msgstr "重型突擊艦"
+
+msgid "Heavy Interdiction Cruiser"
+msgstr "重型攔截艦"
+
+msgid "Industrial"
+msgstr "工業艦"
+
+msgid "Industrial Command Ship"
+msgstr "工業指揮艦"
+
+msgid "Interceptor"
+msgstr "截擊艦"
+
+msgid "Interdictor"
+msgstr "輕型攔截艦"
+
+msgid "Jump Freighter"
+msgstr "戰略貨艦"
+
+msgid "Limited Issue Ships"
+msgstr "特別版艦船"
+
+msgid "Logistics"
+msgstr "後勤艦"
+
+msgid "Logistics Frigate"
+msgstr "後勤護衛艦"
+
+msgid "Marauder"
+msgstr "掠奪艦"
+
+msgid "Mining Barge"
+msgstr "採礦駁船"
+
+msgid "Rookie ship"
+msgstr "新手船"
+
+msgid "Shuttle"
+msgstr "穿梭機"
+
+msgid "Stealth Bomber"
+msgstr "隱形轟炸艦"
+
+msgid "Strategic Cruiser"
+msgstr "戰略巡洋艦"
+
+msgid "Supercarrier"
+msgstr "超級航母"
+
+msgid "Tactical Destroyer"
+msgstr "戰術驅逐艦"
+
+msgid "Titan"
+msgstr "泰坦"
