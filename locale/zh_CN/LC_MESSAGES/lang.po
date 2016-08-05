@@ -168,6 +168,12 @@ msgstr "耗尽 "
 msgid "StatsViews_capacitor_Stable: "
 msgstr "稳定: "
 
+msgid "StatsViews_Capacitor stability"
+msgstr "电容稳定度"
+
+msgid "StatsViews_Capacitor throughput"
+msgstr "电容吞吐"
+
 # builtinStatsViews/firepowerViewFull.py
 
 msgid "StatsViews_firepower_title"
@@ -603,3 +609,139 @@ msgstr "死亡"
 
 msgid "officer"
 msgstr "官员"
+
+#equipment-typeB
+
+msgid "Ammunition & Charges"
+msgstr "军火 & 弹药"
+
+msgid "Deployable Structures"
+msgstr "可部署建筑"
+
+msgid "Implants & Boosters"
+msgstr "植入体 & 增效剂"
+
+msgid "Rigs"
+msgstr "改装件"
+
+msgid "Ship Equipment"
+msgstr "舰船装备"
+
+msgid "Subsystems"
+msgstr "子系统"
+
+msgid "Drones"
+msgstr "无人机"
+
+msgid "Recently Used Modules"
+msgstr "使用历史"
+
+#equipment-typeC
+
+msgid "Bombs"
+msgstr "炸弹"
+
+msgid "Scripts"
+msgstr "脚本"
+
+msgid "Probes"
+msgstr "探针"
+
+msgid "Missiles"
+msgstr "导弹"
+
+msgid "Cap Booster Charges"
+msgstr "电容注电电池"
+
+msgid "Mining Crystals"
+msgstr "采矿晶体"
+
+msgid "Hybrid Charges"
+msgstr "混合炮弹"
+
+msgid "Frequency Crystals"
+msgstr "频率晶体"
+
+msgid "Nanite Repair Paste"
+msgstr "纳米修复粘合剂"
+
+msgid "Projectile Ammo"
+msgstr "射弹炮弹"
+
+msgid "Structure Guided Bombs"
+msgstr "制导炸弹"
+
+msgid "Cargo Containers"
+msgstr "货柜"
+
+msgid "Encounter Surveillance Systems"
+msgstr "事件监测装置"
+
+msgid "Mobile Cynosural Inhibitors"
+msgstr "移动诱导力场干扰装置"
+
+msgid "Mobile Depots"
+msgstr "移动式仓库"
+
+msgid "Mobile Micro Jump Units"
+msgstr "移动微型跳跃装置"
+
+msgid "Mobile Scan Inhibitors"
+msgstr "移动扫描抑制装置"
+
+msgid "Mobile Siphon Units"
+msgstr "移动式虹吸装置"
+
+msgid "Mobile Tractor Units"
+msgstr "移动式牵引装置"
+
+msgid "Warp Disruption Fields"
+msgstr "机动式跃迁扰断装置"
+
+msgid "Amarr Subsystems"
+msgstr "艾玛子系统"
+
+msgid "Caldari Subsystems"
+msgstr "加达里子系统"
+
+msgid "Gallente Subsystems"
+msgstr "盖伦特子系统"
+
+msgid "Minmatar Subsystems"
+msgstr "米玛塔尔子系统"
+
+msgid "Armor Rigs"
+msgstr "装甲改装件"
+
+msgid "Astronautic Rigs"
+msgstr "航行工程改装件"
+
+msgid "Drone Rigs"
+msgstr "无人机改装件"
+
+msgid "Electronics Superiority Rigs"
+msgstr "电子战改装件"
+
+msgid "Energy Weapon Rigs"
+msgstr "能量武器改装件"
+
+msgid "Engineering Rigs"
+msgstr "工程学改装件"
+
+msgid "Hybrid Weapon Rigs"
+msgstr "混合武器改装件"
+
+msgid "Missile Launcher Rigs"
+msgstr "导弹改装件"
+
+msgid "Projectile Weapon Rigs"
+msgstr "射弹武器改装件"
+
+msgid "Caldari Subsystems"
+msgstr "加达里子系统"
+
+msgid "Gallente Subsystems"
+msgstr "盖伦特子系统"
+
+msgid "Minmatar Subsystems"
+msgstr "米玛塔尔子系统"

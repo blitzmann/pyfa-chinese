@@ -49,7 +49,7 @@ class CapacitorViewFull(StatsView):
 
         sizerCapacitor.Add(baseBox, 0, wx.ALIGN_LEFT)
         bitmap = BitmapLoader.getStaticBitmap("capacitorInfo_big", parent, "gui")
-        tooltip = wx.ToolTip("Capacitor stability")
+        tooltip = wx.ToolTip(_("StatsViews_Capacitor stability"))
         bitmap.SetToolTip(tooltip)
         baseBox.Add(bitmap, 0, wx.ALIGN_CENTER)
 
@@ -82,7 +82,7 @@ class CapacitorViewFull(StatsView):
 
         sizerCapacitor.Add(baseBox, 0, wx.ALIGN_CENTER_HORIZONTAL)
 
-        tooltip = wx.ToolTip("Capacitor throughput")
+        tooltip = wx.ToolTip(_("StatsViews_Capacitor throughput"))
         bitmap = BitmapLoader.getStaticBitmap("capacitorRecharge_big", parent, "gui")
         bitmap.SetToolTip(tooltip)
         baseBox.Add(bitmap, 0, wx.ALIGN_CENTER)

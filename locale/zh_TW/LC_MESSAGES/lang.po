@@ -168,6 +168,12 @@ msgstr "耗盡 "
 msgid "StatsViews_capacitor_Stable: "
 msgstr "穩定: "
 
+msgid "StatsViews_Capacitor stability"
+msgstr "電容穩定度"
+
+msgid "StatsViews_Capacitor throughput"
+msgstr "電容吞吐"
+
 # builtinStatsViews/firepowerViewFull.py
 
 msgid "StatsViews_firepower_title"
@@ -603,3 +609,29 @@ msgstr "死亡"
 
 msgid "officer"
 msgstr "官員"
+
+#equipment-typeB
+
+msgid "Ammunition & Charges"
+msgstr "軍火 & 彈藥"
+
+msgid "Deployable Structures"
+msgstr "可部署建築"
+
+msgid "Implants & Boosters"
+msgstr "植入體 & 增效劑"
+
+msgid "Rigs"
+msgstr "改裝件"
+
+msgid "Ship Equipment"
+msgstr "艦船裝備"
+
+msgid "Subsystems"
+msgstr "子系統"
+
+msgid "Drones"
+msgstr "無人機"
+
+msgid "Recently Used Modules"
+msgstr "使用歷史"
